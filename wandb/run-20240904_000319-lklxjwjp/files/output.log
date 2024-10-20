@@ -1,0 +1,122 @@
+epoch:  0 , example:  1  current loss =  0.30391132831573486
+epoch:  0 , example:  2  current loss =  0.3038976192474365
+epoch:  0 , example:  3  current loss =  0.2944589853286743
+epoch:  0 , example:  4  current loss =  0.2451445609331131
+epoch:  0 , example:  5  current loss =  0.3822824954986572
+epoch:  0 , example:  6  current loss =  0.22870856523513794
+epoch:  0 , example:  7  current loss =  0.28618985414505005
+epoch:  0 , example:  8  current loss =  0.2843465209007263
+epoch:  0 , example:  9  current loss =  0.3455152213573456
+epoch:  0 , example:  10  current loss =  0.3045727014541626
+epoch:  0 , example:  11  current loss =  0.3360038101673126
+epoch:  0 , example:  12  current loss =  0.29297325015068054
+epoch:  0 , example:  13  current loss =  0.3264620304107666
+epoch:  0 , example:  14  current loss =  0.33531156182289124
+epoch:  0 , example:  15  current loss =  0.3630858361721039
+epoch:  0 , example:  16  current loss =  0.18311664462089539
+epoch:  0 , example:  17  current loss =  0.20173554122447968
+epoch:  0 , example:  18  current loss =  0.3276267945766449
+epoch:  0 , example:  19  current loss =  0.2908085286617279
+epoch:  0 , example:  20  current loss =  0.3241389989852905
+epoch:  0 , example:  21  current loss =  0.34185948967933655
+epoch:  0 , example:  22  current loss =  0.35239166021347046
+epoch:  0 , example:  23  current loss =  0.32049307227134705
+epoch:  0 , example:  24  current loss =  0.3082272410392761
+epoch:  0 , example:  25  current loss =  0.33096787333488464
+epoch:  0 , example:  26  current loss =  0.3211921155452728
+epoch:  0 , example:  27  current loss =  0.31466808915138245
+epoch:  0 , example:  28  current loss =  0.37195613980293274
+epoch:  0 , example:  29  current loss =  0.2681576609611511
+epoch:  0 , example:  30  current loss =  0.3717443346977234
+epoch:  0 , example:  31  current loss =  0.16504354774951935
+epoch:  0 , example:  32  current loss =  0.35110291838645935
+epoch:  0 , example:  33  current loss =  0.29986968636512756
+epoch:  0 , example:  34  current loss =  0.3481961488723755
+epoch:  0 , example:  35  current loss =  0.2729068398475647
+epoch:  0 , example:  36  current loss =  0.3088802099227905
+epoch:  0 , example:  37  current loss =  0.21144896745681763
+epoch:  0 , example:  38  current loss =  0.398621141910553
+epoch:  0 , example:  39  current loss =  0.3527735471725464
+epoch:  0 , example:  40  current loss =  0.27876731753349304
+epoch:  0 , example:  41  current loss =  0.24127411842346191
+epoch:  0 , example:  42  current loss =  0.33215925097465515
+epoch:  0 , example:  43  current loss =  0.31496676802635193
+epoch:  0 , example:  44  current loss =  0.2532370090484619
+epoch:  0 , example:  45  current loss =  0.40179815888404846
+epoch:  0 , example:  46  current loss =  0.33766433596611023
+epoch:  0 , example:  47  current loss =  0.3334569036960602
+epoch:  0 , example:  48  current loss =  0.23994320631027222
+epoch:  0 , example:  49  current loss =  0.3105403482913971
+epoch:  0 , example:  50  current loss =  0.3247111439704895
+epoch:  0 , example:  51  current loss =  0.3027009665966034
+epoch:  0 , example:  52  current loss =  0.30187883973121643
+epoch:  0 , example:  53  current loss =  0.28050947189331055
+epoch:  0 , example:  54  current loss =  0.27014073729515076
+epoch:  0 , example:  55  current loss =  0.3188856542110443
+epoch:  0 , example:  56  current loss =  0.29679203033447266
+epoch:  0 , example:  57  current loss =  0.32020512223243713
+epoch:  0 , example:  58  current loss =  0.3501617908477783
+epoch:  0 , example:  59  current loss =  0.33977827429771423
+epoch:  0 , example:  60  current loss =  0.3289415240287781
+epoch:  0 , example:  61  current loss =  0.23548784852027893
+epoch:  0 , example:  62  current loss =  0.3504803478717804
+epoch:  0 , example:  63  current loss =  0.283801406621933
+epoch:  0 , example:  64  current loss =  0.27538958191871643
+epoch:  0 , example:  65  current loss =  0.32850518822669983
+epoch:  0 , example:  66  current loss =  0.3000972270965576
+epoch:  0 , example:  67  current loss =  0.24899673461914062
+epoch:  0 , example:  68  current loss =  0.26309916377067566
+epoch:  0 , example:  69  current loss =  0.31002846360206604
+epoch:  0 , example:  70  current loss =  0.2901611030101776
+epoch:  0 , example:  71  current loss =  0.18873339891433716
+epoch:  0 , example:  72  current loss =  0.3166358768939972
+epoch:  0 , example:  73  current loss =  0.27659115195274353
+epoch:  0 , example:  74  current loss =  0.24766528606414795
+epoch:  0 , example:  75  current loss =  0.33176863193511963
+epoch:  0 , example:  76  current loss =  0.3425297141075134
+epoch:  0 , example:  77  current loss =  0.2696254253387451
+epoch:  0 , example:  78  current loss =  0.29397156834602356
+epoch:  0 , example:  79  current loss =  0.24788257479667664
+epoch:  0 , example:  80  current loss =  0.3053874969482422
+epoch:  0 , example:  81  current loss =  0.2941616475582123
+epoch:  0 , example:  82  current loss =  0.23586025834083557
+epoch:  0 , example:  83  current loss =  0.20770718157291412
+epoch:  0 , example:  84  current loss =  0.32125797867774963
+epoch:  0 , example:  85  current loss =  0.3684840202331543
+epoch:  0 , example:  86  current loss =  0.2870365381240845
+epoch:  0 , example:  87  current loss =  0.26067495346069336
+epoch:  0 , example:  88  current loss =  0.3446318507194519
+epoch:  0 , example:  89  current loss =  0.30352944135665894
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\convLSTMTrain\convLSTMTrain.py", line 34, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model, loss, False, "ConvLSTMBig", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\convLSTMTrain\functions.py", line 581, in trainLoop
+    forward = model.forward(inpts, targets, training = True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\convLSTMTrain\ConvLSTM.py", line 255, in forward
+    x = self.encoder(x)
+        ^^^^^^^^^^^^^^^
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\convLSTMTrain\ConvLSTM.py", line 211, in encoder
+    h, cell = self.convLSTMEnc(x)
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\convLSTMTrain\ConvLSTM.py", line 152, in forward
+    h, c = self.cell_list[layer_idx](input_tensor=cur_layer_input[:, t, :, :, :],
+                                                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\fx\traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 432, in _extract_from_extended_frame_gen
+    linecache.checkcache(filename)
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\linecache.py", line 72, in checkcache
+    stat = os.stat(fullname)
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,98 @@
+epoch:  0 , example:  1  current loss =  0.28947713971138
+epoch:  0 , example:  2  current loss =  0.2146110236644745
+epoch:  0 , example:  3  current loss =  0.11867078393697739
+epoch:  0 , example:  4  current loss =  0.14358195662498474
+epoch:  0 , example:  5  current loss =  0.17608642578125
+epoch:  0 , example:  6  current loss =  0.096603162586689
+epoch:  0 , example:  7  current loss =  0.05457961931824684
+epoch:  0 , example:  8  current loss =  0.05004877969622612
+epoch:  0 , example:  9  current loss =  0.09133569151163101
+epoch:  0 , example:  10  current loss =  0.047097884118556976
+epoch:  0 , example:  11  current loss =  0.035600695759058
+epoch:  0 , example:  12  current loss =  0.07584663480520248
+epoch:  0 , example:  13  current loss =  0.0330902561545372
+epoch:  0 , example:  14  current loss =  0.026273643597960472
+epoch:  0 , example:  15  current loss =  0.02841542288661003
+epoch:  0 , example:  16  current loss =  0.0565798394382
+epoch:  0 , example:  17  current loss =  0.04565161094069481
+epoch:  0 , example:  18  current loss =  0.025397757068276405
+epoch:  0 , example:  19  current loss =  0.02973916567862034
+epoch:  0 , example:  20  current loss =  0.026094920933246613
+epoch:  0 , example:  21  current loss =  0.047444626688957214
+epoch:  0 , example:  22  current loss =  0.016422512009739876
+epoch:  0 , example:  23  current loss =  0.02897341176867485
+epoch:  0 , example:  24  current loss =  0.025475097820162773
+epoch:  0 , example:  25  current loss =  0.028066540136933327
+epoch:  0 , example:  26  current loss =  0.030354131013154984
+epoch:  0 , example:  27  current loss =  0.026069652289152145
+epoch:  0 , example:  28  current loss =  0.014102505519986153
+epoch:  0 , example:  29  current loss =  0.022823119536042213
+epoch:  0 , example:  30  current loss =  0.02694586105644703
+epoch:  0 , example:  31  current loss =  0.02437409572303295
+epoch:  0 , example:  32  current loss =  0.021626995876431465
+epoch:  0 , example:  33  current loss =  0.02385902591049671
+epoch:  0 , example:  34  current loss =  0.020240439102053642
+epoch:  0 , example:  35  current loss =  0.03033975511789322
+epoch:  0 , example:  36  current loss =  0.02635328657925129
+epoch:  0 , example:  37  current loss =  0.022909747436642647
+epoch:  0 , example:  38  current loss =  0.025212736800312996
+epoch:  0 , example:  39  current loss =  0.03120630979537964
+epoch:  0 , example:  40  current loss =  0.0152555201202631
+epoch:  0 , example:  41  current loss =  0.019306056201457977
+epoch:  0 , example:  42  current loss =  0.013761158101260662
+epoch:  0 , example:  43  current loss =  0.02723492681980133
+epoch:  0 , example:  44  current loss =  0.025173364207148552
+epoch:  0 , example:  45  current loss =  0.02886289544403553
+epoch:  0 , example:  46  current loss =  0.02902621403336525
+epoch:  0 , example:  47  current loss =  0.01764552854001522
+epoch:  0 , example:  48  current loss =  0.025623394176363945
+epoch:  0 , example:  49  current loss =  0.02944856509566307
+epoch:  0 , example:  50  current loss =  0.030624285340309143
+epoch:  0 , example:  51  current loss =  0.019718462601304054
+epoch:  0 , example:  52  current loss =  0.017473049461841583
+epoch:  0 , example:  53  current loss =  0.026043813675642014
+epoch:  0 , example:  54  current loss =  0.022824272513389587
+epoch:  0 , example:  55  current loss =  0.014324462972581387
+epoch:  0 , example:  56  current loss =  0.03295184671878815
+epoch:  0 , example:  57  current loss =  0.02499168924987316
+epoch:  0 , example:  58  current loss =  0.024331431835889816
+epoch:  0 , example:  59  current loss =  0.02610655128955841
+epoch:  0 , example:  60  current loss =  0.016665110364556313
+epoch:  0 , example:  61  current loss =  0.01902087591588497
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain\lstmAttentionTrain.py", line 41, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model, loss, False, "LSTMAttentionSmall", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain\functions.py", line 582, in trainLoop
+    forward = model.forward(inpts, targets, training = True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain\lstmAttention.py", line 217, in forward
+    output = self.decoder(s, y, training)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain\lstmAttention.py", line 196, in decoder
+    x, _ = self.attention(outputEnc, outputEnc, outputEnc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\nn\modules\module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\nn\modules\activation.py", line 1205, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\nn\functional.py", line 5288, in multi_head_attention_forward
+    v = v.view(v.shape[0], bsz * num_heads, head_dim).transpose(0, 1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\fx\traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\traceback.py", line 432, in _extract_from_extended_frame_gen
+    linecache.checkcache(filename)
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\linecache.py", line 72, in checkcache
+    stat = os.stat(fullname)
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+epoch:  0 , example:  62  current loss =  0.0226666871458292

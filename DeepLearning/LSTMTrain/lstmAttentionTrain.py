@@ -5,12 +5,12 @@ import os
 from torch.utils.data import DataLoader
 import datasetClasses
 import sys
-sys.path.insert(0, '../..')  
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from config import * 
 
 
-#device = "cuda"
-device = "cpu"
+device = "cuda"
+#device = "cpu"
 
 # args:args: lstmLayersEnc, lstmLayersDec, lstmHiddenSize, lstmInputSize, dropout, attentionHeads, device
 #model = lstmAttention.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)

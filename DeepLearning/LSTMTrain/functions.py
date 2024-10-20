@@ -41,7 +41,7 @@ from collections import Counter
 
 ## global variables for project
 ### change here to run on cluster ####
-pathOrigin = "/mnt/qb/work/ludwig/lqb875"
+pathOrigin = "C:\\FAU\\3rd SEM\\Glaciers_NeurIPS"
 #pathOrigin = "/media/jonas/B41ED7D91ED792AA/Arbeit_und_Studium/Kognitionswissenschaft/Semester_5/masterarbeit#/data_Code"
 
 
