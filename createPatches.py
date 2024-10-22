@@ -20,6 +20,7 @@ def getPatches(tensor, patchSize, stride=50):
     """
     # Get image dimensions
     nChannels, height, width = tensor.shape
+    
     # Calculate the number of patches in each direction
     nHorizontalPatches = (width - patchSize) // stride + 1
     nVerticalPatches = (height - patchSize) // stride + 1
@@ -130,7 +131,7 @@ def automatePatching(data, patchSize, stride):
     return res
 
 
-def getTrainTest(patches, window, inputBands, outputBands):
+def getTrainTest(patches, window, inputBands, outputBands, data_type = "Images"):
     """
     converts patches to image data for deep learning models
 
@@ -146,9 +147,15 @@ def getTrainTest(patches, window, inputBands, outputBands):
     returns: list of list of input data, input date and target data, target date
 
     """
+    # get data
+    if data_type=="Images":
+        folder_path= "alignedAveragedDataNDSIPatched"
+    if data_type=="Temperatures":
+        folder_path= "TemperatureDataPatched"
+
     # create folder to save output 
-    os.makedirs(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched"), exist_ok = True)
-    os.chdir(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched"))
+    os.makedirs(os.path.join(path, "datasets", name, folder_path), exist_ok = True)
+    os.chdir(os.path.join(path, "datasets", name, folder_path))
 
     # start generating data
     counter =  0 
@@ -169,16 +176,16 @@ def getTrainTest(patches, window, inputBands, outputBands):
             # just save images and targets in folder
             # input
             
-            os.makedirs(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched", "images"), exist_ok=True)
-            os.chdir(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched", "images"))
+            os.makedirs(os.path.join(path, "datasets", name, folder_path, "images"), exist_ok=True)
+            os.chdir(os.path.join(path, "datasets", name, folder_path, "images"))
 
             # save data object on drive
             with open(str(counter), "wb") as fp:  # Pickling
                 pickle.dump(xHelper, fp)
 
             # targets
-            os.makedirs(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched", "targets"), exist_ok=True)
-            os.chdir(os.path.join(path, "datasets", name, "alignedAveragedDataNDSIPatched", "targets"))
+            os.makedirs(os.path.join(path, "datasets", name, folder_path, "targets"), exist_ok=True)
+            os.chdir(os.path.join(path, "datasets", name, folder_path, "targets"))
 
             # save data object on drive
             with open(str(counter), "wb") as fp:  # Pickling

@@ -476,14 +476,19 @@ def averageOverMonths(delta = 6, verbose = True):
         # filter and average over months in year
         listOfList = []
         listOfListInd = []
+        for b in range(len(files)):
+            print(openData(files[b]))
+            print(convertDatetoVector(openData(files[b])))
         for i in range(1, 12, delta): # deltas
+            
             monthsDelta = [convertDatetoVector(openData(files[b]))[1] for b in range(len(files)) if 
                         convertDatetoVector(openData(files[b]))[1] < i + (delta) and convertDatetoVector(openData(files[b]))[1] >= i ]
             monthsDeltaInd = [b for b in range(len(files)) if 
                         convertDatetoVector(openData(files[b]))[1] < i + (delta) and convertDatetoVector(openData(files[b]))[1] >= i ]
             listOfList.append(monthsDelta)
             listOfListInd.append(monthsDeltaInd)
-        
+        print(listOfList)
+        print(listOfListInd)
         if verbose:
             print(f"Distribution of images in timedeltas: {listOfListInd}")
 

@@ -8,9 +8,135 @@ import numpy as np
 import pystac_client
 import os
 import pickle
+from scipy.ndimage import zoom
+import pandas as pd
 from config import *
 
-def getData(bbox, bands, timeRange, cloudCoverage, allowedMissings):
+def interpolate_expand(vector):
+    """
+    Expands and interpolates a NumPy array into a larger array.
+
+    Parameters
+    ----------
+    vector: numpy.ndarray
+        A array of shape (d, height, width) containing input data with potential NaN values.
+
+    Returns
+    -------
+    numpy.ndarray
+        A 3D array of shape (d, 800, 800) where each original 2D slice has been interpolated and resized.
+    """
+
+    d,_,_ = vector.shape
+    data2 = np.zeros((vector.shape[0],800,800))
+    target_shape = (data2.shape[1],data2.shape[2])
+    for i in range(d):
+        data = vector[i]
+
+        # Convert the array to a DataFrame for easier manipulation
+        df = pd.DataFrame(data)
+
+        # Interpolate NaN values based on their surroundings
+        df_interpolated = df.interpolate(method='linear', axis=1).interpolate(method='linear', axis=0)
+
+        # Convert back to NumPy array if needed
+        data = df_interpolated.to_numpy()
+
+        # Calculate the zoom factors for each axis
+        zoom_factors = (target_shape[0] / data.shape[0], target_shape[1] / data.shape[1])
+
+        # Use zoom to resize and interpolate the array
+        expanded_array = zoom(data, zoom_factors, order=3)
+
+        # Truncate to two decimals
+        expanded_array = np.rint(expanded_array - 273)
+
+        data2[i] = expanded_array
+
+    return data2
+
+
+def getData_Temperatures(bbox, bands, timeRange, cloudCoverage, allowedMissings):
+    """
+    gets data in numpy format
+
+    bbox: list of float
+        rectangle to be printed
+    bands: list of string
+        ['QC_Day', 'Emis_31', 'Emis_32', 'QC_Night', 'LST_Day_1km', 
+        'Day_view_angl', 'Day_view_time', 'LST_Night_1km', 
+        'Clear_sky_days', 'Night_view_angl', 
+        'Night_view_time', 'Clear_sky_nights']
+    timeRange: string
+        e.g. "2020-12-01/2020-12-31"
+    cloudCoverage: int
+        amount of clouds allowed in [0,100]
+    allowedMissings: float
+        amount of pixels nan
+
+    returns: list of tuple of datetime array and 4d numpy array and cloudCoverage array
+        [time, bands, x, y]
+
+    """
+
+    catalog = pystac_client.Client.open('https://planetarycomputer.microsoft.com/api/stac/v1')
+
+    # query
+    search = catalog.search(
+        collections=['modis-11A2-061'],
+        max_items= None,
+        bbox=bbox,
+        datetime=timeRange
+    )
+
+    items = pc.sign(search)
+    print("found ", len(items), " images")
+
+    # stack
+    stack = stackstac.stack(items.items, bounds_latlon=bbox, epsg=4326)
+
+    # use common_name for bands
+    stack = stack.assign_coords(band=stack.band.rename("band"))
+    output = stack.sel(band=bands)
+
+    # put into dataStructure
+    t = output.shape[0]
+    
+    cloud_cover = np.array(output["eo:cloud_cover"], dtype=float)
+    cloud_cover[np.isnan(cloud_cover)] = 0
+    cloud = np.array(cloud_cover <= cloudCoverage)
+    cloud = [cloud, np.array(output["eo:cloud_cover"])]
+    time = np.array(output["start_datetime"])
+    
+    # Get dimension names
+    print("Dimension names:", output.dims)
+
+    # Get coordinate names
+    print("Coordinates:", output.coords)
+    print("proj:geometry", output["x"])
+    print("proj:geometry", output["y"])
+
+    dataList = []
+    for i in range(t):
+        if i%2==0:
+            if cloud[0][i] == True:  # check for clouds
+                if np.count_nonzero(np.isnan(output[i, 1, :, :])) >= round(
+                    (output.shape[2] * output.shape[3]) * allowedMissings):  # check for many nans
+                    pass
+                elif np.count_nonzero(np.isnan(output[i, 1, :, :])) <= round(
+                            (output.shape[2] * output.shape[3]) * allowedMissings):
+                        data = array([np.array(output[i, 0, :, :]), # get seven bands of the satellite sensors
+                                    np.array(output[i, 1, :, :])
+                                    ])
+                        data = interpolate_expand(data)
+                        print(time[i])
+                        cloudCov = cloud[1][i]
+                        data = (time[i], data, cloudCov)
+                        
+                        dataList.append(data)
+    return dataList
+
+def getData_Images(bbox, bands, timeRange, cloudCoverage, allowedMissings):
     """
     gets data in numpy format
 
@@ -108,7 +234,8 @@ def API(box,
         allowedMissings, 
         year, 
         glacierName, 
-        bands = ['coastal', 'red', 'green', 'blue', 'nir08', 'swir16', 'swir22']):
+        bands = ['coastal', 'red', 'green', 'blue', 'nir08', 'swir16', 'swir22'],
+        data_type = "Images"):
     """
     acquire and preprocess the data
 
@@ -127,12 +254,18 @@ def API(box,
 
     return: list of tuple of datetime and 4d ndarray tensor for model building
     """
-    # get data
-    d = getData(bbox=box, bands=bands, timeRange=time, cloudCoverage= cloudCoverage, allowedMissings=allowedMissings)
-
-    # save on hard drive with pickling
     # create folder
     pathOrigin = path + "/" + "datasets" + "/" + glacierName + "/" + "rawData"
+
+    # get data
+    if data_type=="Images":
+        d = getData_Images(bbox=box, bands=bands, timeRange=time, cloudCoverage= cloudCoverage, allowedMissings=allowedMissings)
+    if data_type=="Temperatures":
+        d = getData_Temperatures(bbox=box, bands=bands, timeRange=time, cloudCoverage= cloudCoverage, allowedMissings=allowedMissings)
+        pathOrigin = path + "/" + "datasets" + "/" + glacierName + "/rawData/Temperatures"
+    
+    # save on hard drive with pickling
+    
     os.makedirs(pathOrigin, exist_ok = True)
     os.chdir(pathOrigin)
 
@@ -147,7 +280,9 @@ def getYearlyData(years,
                   boundingBox, 
                   clouds, 
                   allowedMissings, 
-                  name):
+                  name,
+                  bands,
+                  data_type):
     """
     years: list of string
         years that are to be extracted
@@ -174,7 +309,9 @@ def getYearlyData(years,
                 clouds,
                 allowedMissings, 
                 years[b],
-                name)
+                name,
+                bands,
+                data_type)
             
             print(years[b] + " done")
     
@@ -183,8 +320,9 @@ def getYearlyData(years,
      
 
 if __name__ == "__main__":
-    getYearlyData(years, boundingBox, clouds, allowedMissings, name)
-
+    #For Getting Images
+    bands = ['coastal', 'red', 'green', 'blue', 'nir08', 'swir16', 'swir22']
+    getYearlyData(years, boundingBox, clouds, allowedMissings, name, bands, "Images")
 
 
 
