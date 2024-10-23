@@ -1,0 +1,11 @@
+temperatures:  torch.Size([2, 4, 50, 50])
+temperature_output:  torch.Size([2, 1, 50, 50])
+temperature_output.unsqueeze(1):  torch.Size([2, 1, 1, 50, 50])
+inpts:  torch.Size([2, 4, 50, 50])
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\lstmAttentionTrain.py", line 45, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model,temperature_model, loss, False, "LSTMAttentionWithTemperature", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 594, in trainLoop
+    combined_input = torch.cat((inpts, temperature_output.unsqueeze(1)), dim=1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tensors must have same number of dimensions: got 4 and 5

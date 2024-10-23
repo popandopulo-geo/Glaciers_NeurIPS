@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\lstmAttentionTrain.py", line 45, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model,temperature_model, loss, False, "LSTMAttentionWithTemperature", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 573, in trainLoop
+    for inpts, targets in trainLoader:
+        ^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
