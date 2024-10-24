@@ -134,7 +134,7 @@ def automatePatching(data, patchSize, stride):
 if __name__ == "__main__":
     #For Getting Images
     bands = ['LST_Day_1km', 'LST_Night_1km']
-    #dataAPI.getYearlyData(years, boundingBox, clouds, allowedMissings, name, bands, "Temperatures")
+    dataAPI.getYearlyData(years, boundingBox, clouds, allowedMissings, name, bands, "Temperatures")
     groupdata()
 
 
@@ -151,7 +151,13 @@ if __name__ == "__main__":
     d = automatePatching(data, patchSize, stride)
     print("data patched")
 
+    
+    """# Write list to a binary file using pickle
+    td = [d[0][0:20], d[1][0:20], d[2][0:20], d[3][0:20], d[4][0:20], d[5][0:20], d[6][0:20], d[7][0:20] ]
+    with open("d.pkl", "wb") as file:
+        pickle.dump(td, file)"""
+
     # put into tensors
-    d = createPatches.getTrainTest(d, sequenceLength, 0,0, data_type="Temperatures")
+    d = createPatches.getTrainTemperatures(d, sequenceLength, 0,0)
     print("data converted to tensors and saved")
     

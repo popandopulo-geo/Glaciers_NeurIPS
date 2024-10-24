@@ -1,0 +1,206 @@
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  1  current loss =  0.33898860216140747
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  2  current loss =  0.20940780639648438
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  3  current loss =  0.12120451033115387
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  4  current loss =  0.05506904050707817
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  5  current loss =  0.041594017297029495
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  6  current loss =  0.06326783448457718
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  7  current loss =  0.07125600427389145
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  8  current loss =  0.02574826218187809
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  9  current loss =  0.03359772264957428
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  10  current loss =  0.02365928888320923
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  11  current loss =  0.05763428658246994
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  12  current loss =  0.02580590732395649
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  13  current loss =  0.04377416521310806
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  14  current loss =  0.04663917422294617
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  15  current loss =  0.027775419875979424
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  16  current loss =  0.0981021374464035
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  17  current loss =  0.04319915175437927
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  18  current loss =  0.024259069934487343
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  19  current loss =  0.02074619010090828
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  20  current loss =  0.02377081662416458
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  21  current loss =  0.025770239531993866
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  22  current loss =  0.029554637148976326
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  23  current loss =  0.02757802978157997
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  24  current loss =  0.01890547014772892
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  25  current loss =  0.033743854612112045
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  26  current loss =  0.018810788169503212
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  27  current loss =  0.05866486579179764
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  28  current loss =  0.033852774649858475
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  29  current loss =  0.0201693307608366
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  30  current loss =  0.07259434461593628
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  31  current loss =  0.030694304034113884
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  32  current loss =  0.020170342177152634
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  33  current loss =  0.06584624201059341
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  34  current loss =  0.03027244843542576
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  35  current loss =  0.0279463492333889
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  36  current loss =  0.025026047602295876
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  37  current loss =  0.026318786665797234
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  38  current loss =  0.029776735231280327
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  39  current loss =  0.023643234744668007
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  40  current loss =  0.03198913484811783
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  41  current loss =  0.022841976955533028
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  42  current loss =  0.031371477991342545
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  43  current loss =  0.07885484397411346
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  44  current loss =  0.04018339887261391
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  45  current loss =  0.029847076162695885
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  46  current loss =  0.030422082170844078
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  47  current loss =  0.04081326350569725
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  48  current loss =  0.02536791004240513
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  49  current loss =  0.03826904296875
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  50  current loss =  0.0254721250385046
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  51  current loss =  0.025713659822940826
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  52  current loss =  0.035619840025901794
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  53  current loss =  0.02098976820707321
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  54  current loss =  0.029222268611192703
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  55  current loss =  0.024041278287768364
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  56  current loss =  0.024228883907198906
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  57  current loss =  0.025200389325618744
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  58  current loss =  0.020653096958994865
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  59  current loss =  0.023638306185603142
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  60  current loss =  0.023395944386720657
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  61  current loss =  0.016127413138747215
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  62  current loss =  0.02341475710272789
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  63  current loss =  0.020237574353814125
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  64  current loss =  0.021455788984894753
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  65  current loss =  0.017339345067739487
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  66  current loss =  0.01908118464052677
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  67  current loss =  0.031108269467949867
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  68  current loss =  0.03361018747091293
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  69  current loss =  0.01897670328617096
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  70  current loss =  0.030472705140709877
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  71  current loss =  0.033649977296590805
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  72  current loss =  0.023435425013303757
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  73  current loss =  0.03801732137799263
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  74  current loss =  0.01941085048019886
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  75  current loss =  0.028822343796491623
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  76  current loss =  0.011401881463825703
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  77  current loss =  0.029747692868113518
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  78  current loss =  0.02038092352449894
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  79  current loss =  0.011398585513234138
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  80  current loss =  0.017371730878949165
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  81  current loss =  0.021569527685642242
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  82  current loss =  0.01237014401704073
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  83  current loss =  0.015406609512865543
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  84  current loss =  0.009270751848816872
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  85  current loss =  0.030401283875107765
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  86  current loss =  0.025591056793928146
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  87  current loss =  0.06602340191602707
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  88  current loss =  0.02324838936328888
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  89  current loss =  0.0373334065079689
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  90  current loss =  0.020335502922534943
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  91  current loss =  0.01855803094804287
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  92  current loss =  0.01965387910604477
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  93  current loss =  0.021892065182328224
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  94  current loss =  0.04271617531776428
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  95  current loss =  0.03715098649263382
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  96  current loss =  0.02897307090461254
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  97  current loss =  0.021048352122306824
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  98  current loss =  0.015946831554174423
+torch.Size([1, 4, 2500])
+epoch:  0 , example:  99  current loss =  0.017169101163744926
+torch.Size([1, 4, 2500])
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\lstmAttentionTrain.py", line 44, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model, loss, False, "LSTMAttentionWithTemperature", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 595, in trainLoop
+    x, y = next(iter(valLoader))
+    ^^^^
+ValueError: too many values to unpack (expected 2)

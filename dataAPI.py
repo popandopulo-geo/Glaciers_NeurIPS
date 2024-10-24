@@ -44,12 +44,12 @@ def interpolate_expand(vector):
 
         # Calculate the zoom factors for each axis
         zoom_factors = (target_shape[0] / data.shape[0], target_shape[1] / data.shape[1])
-
+        print('original data shape: ', data.shape, 'zoom: ', zoom_factors)
         # Use zoom to resize and interpolate the array
         expanded_array = zoom(data, zoom_factors, order=3)
 
         # Truncate to two decimals
-        expanded_array = np.rint(expanded_array - 273)
+        expanded_array = (expanded_array - 273)/50
 
         data2[i] = expanded_array
 

@@ -507,7 +507,7 @@ def tokenizerBatch(model, x, mode, device, flatten = torch.nn.Flatten(start_dim=
         return decoding
 
 
-def trainLoop(trainLoader, valLoader, model, temperature_model, criterion, loadModel, modelName, params,  WandB, device, pathOrigin = pathOrigin):
+def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, params,  WandB, device, pathOrigin = pathOrigin):
     """
     trains a given model on the data
 
@@ -533,7 +533,6 @@ def trainLoop(trainLoader, valLoader, model, temperature_model, criterion, loadM
     validationLosses = np.ones(len(trainLoader) * params["epochs"])
     trainCounter = 0
     valLoss = torch.zeros(1)
-
     # WandB
     if WandB:
         wandb.init(
@@ -570,32 +569,22 @@ def trainLoop(trainLoader, valLoader, model, temperature_model, criterion, loadM
     ###################### start training #############################
 
     for b in range(params["epochs"]):
-        for inpts, targets, temperatures in trainLoader:
+        for inpts, targets , temps in trainLoader:
             # use tokenizer on gpu
             model.train()
             inpts = inpts.to(device).float()
             targets = targets.to(device).float()
-            temperatures = temperatures.to(device).float()
-
+            temperatures=[]
+            for t in temps:
+                temperatures.append(t.to(device).float())
             # zero the parameter gradients
             optimizer.zero_grad()
 
-            # Pass temperature data through the LSTM
-            temperature_output = temperature_model(temperatures).unsqueeze(1)
-            temperature_output = temperature_output.reshape(temperature_output.size(0), 1, 50, 50)
-
-            print('temperatures: ', temperatures.shape)
-            print('temperature_output: ', temperature_output.shape)
-            print('inpts: ', inpts.shape)
-            # Combine temperature_output with inpts
-            combined_input = torch.cat((inpts, temperature_output), dim=1)
-            print('combined_input: ', combined_input.shape)
             # forward + backward + optimize
-            forward = model.forward(combined_input, targets, training = True)
+            forward = model.forward(inpts, temperatures, targets, training = True)
             loss = criterion(forward, targets)  # add reconstruction loss
             loss.backward()
             torch.nn.utils.clip_grad_value_(model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
-            torch.nn.utils.clip_grad_value_(temperature_model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
             optimizer.step()
             trainCounter += 1
 
@@ -603,18 +592,16 @@ def trainLoop(trainLoader, valLoader, model, temperature_model, criterion, loadM
             with torch.no_grad():
                 if trainCounter % params["validationStep"] == 0 and trainCounter != 0:
                     model.eval()
-                    temperature_model.eval()
-                    x, y, temp = next(iter(valLoader))
+                    x, y, temps = next(iter(valLoader))
                     x = x.to(device).float()
                     y = y.to(device).float()
-                    temp = temp.to(device).float()
+                    temperatures=[]
+                    for t in temps:
+                        temperatures.append(t.to(device).float())
 
                     # predict
-                    temperature_output_val = temperature_model(temp)
-                    combined_input_val = torch.cat((x, temperature_output_val.unsqueeze(1)), dim=1)
-                    pred = model.forward(combined_input_val, y, training=False)
+                    pred = model.forward(x, temperatures, y, training = False)
                     valLoss = criterion(pred, y)
-                    
 
 
                 ## log to wandb

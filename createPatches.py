@@ -131,7 +131,7 @@ def automatePatching(data, patchSize, stride):
     return res
 
 
-def getTrainTest(patches, window, inputBands, outputBands, data_type = "Images"):
+def getTrainTest(patches, window, inputBands, outputBands):
     """
     converts patches to image data for deep learning models
 
@@ -148,16 +148,14 @@ def getTrainTest(patches, window, inputBands, outputBands, data_type = "Images")
 
     """
     # get data
-    if data_type=="Images":
-        folder_path= "alignedAveragedDataNDSIPatched"
-    if data_type=="Temperatures":
-        folder_path= "TemperatureDataPatched"
-
+    folder_path= "alignedAveragedDataNDSIPatched"
+    
     # create folder to save output 
     os.makedirs(os.path.join(path, "datasets", name, folder_path), exist_ok = True)
     os.chdir(os.path.join(path, "datasets", name, folder_path))
 
     # start generating data
+    
     counter =  0 
     for i in range((len(patches) - 2*window) // 1 + 1): # formula from pytorch cnn classes
         # create patches from consecutive timepoints in the future
@@ -165,6 +163,7 @@ def getTrainTest(patches, window, inputBands, outputBands, data_type = "Images")
         x = patches[i:i + window]
         y = patches[i + window: i + (2 * window)]
         for z in range(x[0].shape[0]):
+
             xHelper = list(map(lambda x: torch.from_numpy(x[z, inputBands, :, :]), x))
             xHelper = torch.stack(xHelper, dim = 0)
             yHelper = list(map(lambda x: torch.from_numpy(x[z, outputBands, :, :]), y))
@@ -192,6 +191,65 @@ def getTrainTest(patches, window, inputBands, outputBands, data_type = "Images")
                 pickle.dump(yHelper, fp)
             counter += 1
 
+    return None
+
+def getTrainTemperatures(patches, window, inputBands, outputBands):
+    """
+    converts patches to image data for deep learning models
+
+    patches: list of tensor
+        data createPatches.py
+    window: int
+        length of sequences for model
+    inputBands: list of int
+    outputBands: list of int
+    stationary: boolean
+        quantized time
+
+    returns: list of list of input data, input date and target data, target date
+
+    """
+    # get data
+    folder_path= "TemperatureDataPatched"
+
+    # create folder to save output 
+    os.makedirs(os.path.join(path, "datasets", name, folder_path), exist_ok = True)
+    os.chdir(os.path.join(path, "datasets", name, folder_path))
+
+    # start generating data
+    counter =  0 
+
+    for i in range((len(patches) - 2*window) // 1 + 1): # formula from pytorch cnn classes
+        # create patches from consecutive timepoints in the future
+        ## take next n scenes
+        x = patches[i:i + window]
+        y = patches[i + window: i + (2 * window)]
+
+        for z in range(x[0].shape[0]):
+            xHelper = [torch.from_numpy(x[0][z]), torch.from_numpy(x[1][z]),
+                        torch.from_numpy(x[2][z]), torch.from_numpy(x[3][z])]
+            
+            yHelper = [torch.from_numpy(y[0][z]), torch.from_numpy(y[1][z]),
+                        torch.from_numpy(y[2][z]), torch.from_numpy(y[3][z])]
+
+            # just save images and targets in folder
+            # input
+            os.makedirs(os.path.join(path, "datasets", name, folder_path, "images"), exist_ok=True)
+            os.chdir(os.path.join(path, "datasets", name, folder_path, "images"))
+
+            # save data object on drive
+            with open(str(counter), "wb") as fp:  # Pickling
+                pickle.dump(xHelper, fp)
+
+            # targets
+            os.makedirs(os.path.join(path, "datasets", name, folder_path, "targets"), exist_ok=True)
+            os.chdir(os.path.join(path, "datasets", name, folder_path, "targets"))
+
+            # save data object on drive
+            with open(str(counter), "wb") as fp:  # Pickling
+                pickle.dump(yHelper, fp)
+            counter += 1
+            
     return None
 
 
