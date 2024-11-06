@@ -36,7 +36,7 @@ from PIL import Image
 import wandb
 from torch.autograd import Variable
 from collections import Counter
-
+import copy
 
 
 ## global variables for project
@@ -533,6 +533,7 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
     validationLosses = np.ones(len(trainLoader) * params["epochs"])
     trainCounter = 0
     valLoss = torch.zeros(1)
+    val_loss = 0
     # WandB
     if WandB:
         wandb.init(
@@ -570,16 +571,18 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
 
     for b in range(params["epochs"]):
         for inpts, targets , temps in trainLoader:
+            
             # use tokenizer on gpu
             model.train()
             inpts = inpts.to(device).float()
             targets = targets.to(device).float()
+
             temperatures=[]
             for t in temps:
                 temperatures.append(t.to(device).float())
             # zero the parameter gradients
             optimizer.zero_grad()
-
+            
             # forward + backward + optimize
             forward = model.forward(inpts, temperatures, targets, training = True)
             loss = criterion(forward, targets)  # add reconstruction loss
@@ -587,31 +590,34 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
             torch.nn.utils.clip_grad_value_(model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
             optimizer.step()
             trainCounter += 1
-
+            
             # save loss
             with torch.no_grad():
                 if trainCounter % params["validationStep"] == 0 and trainCounter != 0:
                     model.eval()
-                    x, y, temps = next(iter(valLoader))
-                    x = x.to(device).float()
-                    y = y.to(device).float()
-                    temperatures=[]
-                    for t in temps:
-                        temperatures.append(t.to(device).float())
+                    val_loss = 0
+                    len_loss = 10
+                    for i in range(len_loss):
+                        x, y, temps = next(iter(valLoader))
+                        x = x.to(device).float()
+                        y = y.to(device).float()
+                        temperatures=[]
+                        for t in temps:
+                            temperatures.append(t.to(device).float())
 
-                    # predict
-                    pred = model.forward(x, temperatures, y, training = False)
-                    valLoss = criterion(pred, y)
-
-
+                        # predict
+                        pred = model.forward(x, temperatures, y, training = False)
+                        valLoss = criterion(pred, y)
+                        val_loss += valLoss.detach().cpu().item()
+                    val_loss = val_loss/len_loss
                 ## log to wandb
                 if WandB:
                     wandb.log({"trainLoss": loss.detach().cpu().item(),
-                            "validationLoss": valLoss.detach().cpu().item()})
+                            "validationLoss": val_loss})
 
                 #save for csv
                 trainLosses[trainCounter] = loss.detach().cpu().item()
-                validationLosses[trainCounter] = valLoss.detach().cpu().item()
+                validationLosses[trainCounter] = val_loss
 
             # save model and optimizer checkpoint in case of memory overlow
             if trainCounter % 500 == 0:

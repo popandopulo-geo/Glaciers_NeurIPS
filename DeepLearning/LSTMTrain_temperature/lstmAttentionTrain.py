@@ -20,7 +20,7 @@ model = lstmAttention.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
 #model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "LSTMAttentionSmall"))
 
 # define hyperparameters
-params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 50, "batchSize": 1, "optimizer": "adam", "validationStep": 100}
+params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 50, "batchSize": 4, "optimizer": "adam", "validationStep": 100}
 
 
 

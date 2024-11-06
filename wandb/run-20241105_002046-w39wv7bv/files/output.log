@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\LSTMTrain.py", line 38, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model, loss, False, "LSTMEncDec", params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 584, in trainLoop
+    forward = model.forward(inpts, temperatures, targets, training = True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: LSTM.forward() got multiple values for argument 'training'

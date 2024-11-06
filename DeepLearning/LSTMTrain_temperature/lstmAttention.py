@@ -11,23 +11,38 @@ class TemperatureLSTM(nn.Module):
         self.num_layers = num_layers
         self.lstmHiddenSize = lstmHiddenSize
         self.lstmInputSize = lstmInputSize
+
+        # LSTM for temporal processing
         self.lstm = nn.LSTM(input_size=self.lstmInputSize, hidden_size=self.lstmHiddenSize, 
                             num_layers=num_layers, batch_first=True)
-        
+        # Convolutional layer to capture spatial features post-LSTM
+        self.conv = nn.Conv2d(1, 1, kernel_size=3, stride=1, padding=1)
+
     def forward(self, temperatures):
+        x = temperatures[0]
         # temperatures is a list of 4 tensors of shape (X, 50, 50)
-        h = Variable(torch.zeros(self.num_layers, 1, self.lstmHiddenSize)).to(self.device)  # hidden state
-        c = Variable(torch.zeros(self.num_layers, 1, self.lstmHiddenSize)).to(self.device)  # cell state
+        h = Variable(torch.zeros(self.num_layers, x.size(0), self.lstmHiddenSize)).to(self.device)  # hidden state
+        c = Variable(torch.zeros(self.num_layers, x.size(0), self.lstmHiddenSize)).to(self.device)  # cell state
         outputs = []
         for temp in temperatures:
-            temp = temp.view(temp.size(1), temp.size(2) * temp.size(3))  # Flatten 50x50 to (X, 2500)
-            output, (h, c) = self.lstm(temp.unsqueeze(0), (h, c))  # LSTM expects input of shape (batch_size, seq_len, input_size)
-            outputs.append(output[:, -1, :])  # We only need the last output
+            temp = temp.view(temp.size(0),temp.size(1), temp.size(2) * temp.size(3))  # Flatten 50x50 to (X, 2500)
+            #print('temp.size(): ',temp.size())
+            output, (h, c) = self.lstm(temp, (h, c))  # LSTM expects input of shape (batch_size, seq_len, input_size)
+            output = output[:, -1, :]
+            #print('output.size(): ', output.size())
+            outputs.append(output)  # We only need the last output
+        
+        #PREGUNTAR
+        #¿NO TENDRIA QUE SACAR CELLMEMORY O HIDDENSTATE EN VEZ DEL OUTPUT?
 
         # Concatenate the outputs from all temperature tensors
         lstm_output = torch.stack(outputs, dim=1)  # Shape: (batch_size, 4, hidden_size)
-
-        return lstm_output
+        lstm_output = lstm_output.view(lstm_output.size(0), 1, lstm_output.size(1), -1)
+        
+        # Apply convolution to reshape temperature features
+        temp_features = self.conv(lstm_output)  # Apply convolution to enhance spatial features
+        temp_features = temp_features.view(temp_features.size(0),temp_features.size(2),-1)
+        return temp_features
 
 
 class LSTM(nn.Module):
@@ -70,7 +85,7 @@ class LSTM(nn.Module):
 
         # Propagate input through LSTM
         output, _ = self.lstmEncoder(x, (h_0, c_0))  # lstm with input, hidden, and internal state
-
+        #print('encoder output: ', output.size())
         return output
 
     def decoder(self, outputEnc, temperatures, y, training):
@@ -84,10 +99,10 @@ class LSTM(nn.Module):
         returns: torch.tensor
 
         """
+        #print('temperatures lenght: ', len(temperatures))
+        #print('temperatures[0].size(): ', temperatures[0].size())
         temp_lstm_output = self.temperature_lstm(temperatures)
-
-        print(temp_lstm_output.shape)
-        
+        #print('temp_lstm_output.size(): ', temp_lstm_output.size())
         if training == False:
             out = []
             for i in range(4):
@@ -109,9 +124,12 @@ class LSTM(nn.Module):
         if training == True:
             out = []
             for i in range(4):
+                #-----------------------------------------------****
+                #TRY TO INPUT THE TEMPERATURES IN THE ATTENTION BLOCK
                 x, _ = self.attention(outputEnc, outputEnc, outputEnc)
                 #print(i, x.shape, outputEnc.shape)
                 x = self.flattenDec(x)
+                #print('self.flattenDec(x): ', x.shape)
                 x = torch.cat((x, temp_lstm_output[:,i,:]), dim=1) 
                 x = self.linear(x)
                 out.append(x)
@@ -140,8 +158,8 @@ class LSTM(nn.Module):
 """# test, args: lstmLayersEnc, lstmLayersDec, lstmHiddenSize, lstmInputSize, dropout, attentionHeads, device
 device = "cpu"
 model = LSTM(1,1, 2500, 2500, 0.1, 1, device).to(device)
-Temperatures = [torch.rand(12, 50,50).to(device),torch.rand(11, 50,50).to(device),
-                torch.rand(13, 50,50).to(device),torch.rand(10, 50,50).to(device)]
+Temperatures = [torch.rand(1,12, 50,50).to(device),torch.rand(1,11, 50,50).to(device),
+                torch.rand(1,13, 50,50).to(device),torch.rand(1,10, 50,50).to(device)]
 test = torch.rand(1, 4, 50,50).to(device)
 
 print(model(test,Temperatures, test, training = False).size())"""
