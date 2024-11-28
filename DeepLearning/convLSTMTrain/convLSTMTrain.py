@@ -9,12 +9,16 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 from config import *  
 
 device = "cuda"
+
 #device = "cpu"
-#model = ConvLSTM.ConvLSTMPredictor([128, 64, 32, 32, 64, 32]).to(device)
-model = ConvLSTM.ConvLSTMPredictor([2, 2, 2, 2, 2, 2]).to(device)
+#BIG
+model = ConvLSTM.ConvLSTMPredictor([128, 64, 32, 32, 64, 32]).to(device)
+
+#little
+#model = ConvLSTM.ConvLSTMPredictor([2, 2, 2, 2, 2, 2]).to(device)
 
 # define hyperparameters
-params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 40, "batchSize": 8, "optimizer": "adam", "validationStep": 100}
+params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 20, "batchSize": 8, "optimizer": "adam", "validationStep": 100}
 
 
 # get dataLoaders

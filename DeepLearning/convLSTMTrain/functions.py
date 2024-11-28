@@ -589,13 +589,19 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
             with torch.no_grad():
                 if trainCounter % params["validationStep"] == 0 and trainCounter != 0:
                     model.eval()
-                    x, y = next(iter(valLoader))
-                    x = x.to(device).float()
-                    y = y.to(device).float()
+                    val_loss = 0
+                    len_loss = 6
+                    for i in range(len_loss):
+                        x, y = next(iter(valLoader))
+                        x = x.to(device).float()
+                        y = y.to(device).float()
 
-                    # predict
-                    pred = model.forward(x, y, training = False)
-                    valLoss = criterion(pred, y)
+                        # predict
+                        pred = model.forward(x, y, training = False)
+                        valLoss = criterion(pred, y)
+                        val_loss += valLoss.detach().cpu().item()
+                    val_loss = val_loss/len_loss
+
 
 
                 ## log to wandb

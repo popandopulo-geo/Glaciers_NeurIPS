@@ -1,0 +1,505 @@
+2024-11-26 16:13:24,339 INFO    StreamThr :17332 [internal.py:wandb_internal():85] W&B internal server running at pid: 17332, started at: 2024-11-26 16:13:24.335980
+2024-11-26 16:13:24,345 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status
+2024-11-26 16:13:24,355 INFO    WriterThread:17332 [datastore.py:open_for_write():87] open: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\run-w8s03oja.wandb
+2024-11-26 16:13:24,357 DEBUG   SenderThread:17332 [sender.py:send():391] send: header
+2024-11-26 16:13:24,409 DEBUG   SenderThread:17332 [sender.py:send():391] send: run
+2024-11-26 16:13:24,849 INFO    SenderThread:17332 [dir_watcher.py:__init__():211] watching files in: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files
+2024-11-26 16:13:24,849 INFO    SenderThread:17332 [sender.py:_start_run_threads():1200] run started: w8s03oja with start time 1732634004.34279
+2024-11-26 16:13:24,866 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: run_start
+2024-11-26 16:13:24,896 DEBUG   HandlerThread:17332 [system_info.py:__init__():26] System info init
+2024-11-26 16:13:24,896 DEBUG   HandlerThread:17332 [system_info.py:__init__():41] System info init done
+2024-11-26 16:13:24,896 INFO    HandlerThread:17332 [system_monitor.py:start():194] Starting system monitor
+2024-11-26 16:13:24,896 INFO    SystemMonitor:17332 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-11-26 16:13:24,896 INFO    HandlerThread:17332 [system_monitor.py:probe():214] Collecting system info
+2024-11-26 16:13:24,904 INFO    SystemMonitor:17332 [interfaces.py:start():188] Started cpu monitoring
+2024-11-26 16:13:24,904 INFO    SystemMonitor:17332 [interfaces.py:start():188] Started disk monitoring
+2024-11-26 16:13:24,904 INFO    SystemMonitor:17332 [interfaces.py:start():188] Started gpu monitoring
+2024-11-26 16:13:24,904 INFO    SystemMonitor:17332 [interfaces.py:start():188] Started memory monitoring
+2024-11-26 16:13:24,914 INFO    SystemMonitor:17332 [interfaces.py:start():188] Started network monitoring
+2024-11-26 16:13:24,920 DEBUG   HandlerThread:17332 [system_info.py:probe():152] Probing system
+2024-11-26 16:13:24,921 DEBUG   HandlerThread:17332 [system_info.py:_probe_git():137] Probing git
+2024-11-26 16:13:25,011 DEBUG   HandlerThread:17332 [system_info.py:_probe_git():145] Probing git done
+2024-11-26 16:13:25,012 DEBUG   HandlerThread:17332 [system_info.py:probe():200] Probing system done
+2024-11-26 16:13:25,012 DEBUG   HandlerThread:17332 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-11-26T15:13:24.921038', 'startedAt': '2024-11-26T15:13:24.328481', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'c:\\Users\\joaqu\\OneDrive\\Documentos\\FAU\\Project glaciar\\Glaciers_NeurIPS\\DeepLearning\\LSTMTrain_temperature\\lstmAttentionTrain.py', 'codePathLocal': 'DeepLearning\\LSTMTrain_temperature\\lstmAttentionTrain.py', 'codePath': 'DeepLearning\\LSTMTrain_temperature\\lstmAttentionTrain.py', 'git': {'remote': 'https://github.com/JoaquinAyzanoa/Glaciers_NeurIPS.git', 'commit': '328b74b0046c1ad3a94b4a8a222b2147dae5771b'}, 'email': 'joaquinayzanoa@gmail.com', 'root': 'C:/Users/joaqu/OneDrive/Documentos/FAU/Project glaciar/Glaciers_NeurIPS', 'host': 'JoaquinLPT_RTX', 'username': 'joaqu', 'executable': 'C:\\Users\\joaqu\\anaconda3\\envs\\glaciar\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2018.0, 'min': 0.0, 'max': 3801.0}, 'cpu_freq_per_core': [{'current': 2018.0, 'min': 0.0, 'max': 3801.0}], 'disk': {'/': {'total': 929.2880821228027, 'used': 672.4355812072754}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.189807891845703}}
+2024-11-26 16:13:25,012 INFO    HandlerThread:17332 [system_monitor.py:probe():224] Finished collecting system info
+2024-11-26 16:13:25,012 INFO    HandlerThread:17332 [system_monitor.py:probe():227] Publishing system info
+2024-11-26 16:13:25,012 DEBUG   HandlerThread:17332 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-11-26 16:13:25,854 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\conda-environment.yaml
+2024-11-26 16:13:33,531 DEBUG   HandlerThread:17332 [system_info.py:_save_conda():224] Saving conda packages done
+2024-11-26 16:13:33,531 INFO    HandlerThread:17332 [system_monitor.py:probe():229] Finished publishing system info
+2024-11-26 16:13:33,537 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:33,537 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: keepalive
+2024-11-26 16:13:33,539 DEBUG   SenderThread:17332 [sender.py:send():391] send: files
+2024-11-26 16:13:33,539 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-11-26 16:13:33,919 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\conda-environment.yaml
+2024-11-26 16:13:33,919 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-metadata.json
+2024-11-26 16:13:33,921 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: python_packages
+2024-11-26 16:13:33,921 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: python_packages
+2024-11-26 16:13:33,923 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: stop_status
+2024-11-26 16:13:33,923 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:13:33,923 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: stop_status
+2024-11-26 16:13:34,078 DEBUG   SenderThread:17332 [sender.py:send():391] send: telemetry
+2024-11-26 16:13:34,165 INFO    wandb-upload_0:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\AppData\Local\Temp\tmph0n_mmeqwandb\wn4dz32l-wandb-metadata.json
+2024-11-26 16:13:34,928 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\requirements.txt
+2024-11-26 16:13:35,086 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:35,704 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:35,705 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:35,705 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:35,705 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:35,938 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:35,938 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:37,943 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:39,181 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:39,183 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:39,183 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:39,184 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:39,846 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:39,853 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:39,853 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:39,854 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:39,960 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:39,961 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:40,500 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:40,500 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:40,502 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:40,502 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:40,503 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:40,975 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:41,189 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:41,190 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:41,191 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:41,192 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:41,905 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:41,913 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:41,913 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:41,915 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:41,980 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:41,980 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:42,644 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:42,646 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:42,646 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:42,648 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:42,994 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:43,317 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:43,318 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:43,319 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:43,319 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:43,939 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:13:44,001 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:44,003 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:44,095 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:44,096 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:44,096 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:44,098 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:44,786 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:44,791 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:44,792 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:44,792 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:45,014 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:45,568 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:45,568 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:45,568 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:45,568 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:45,573 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:46,019 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:46,019 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:46,285 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:46,285 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:46,285 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:46,285 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:46,985 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:46,988 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:46,988 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:46,989 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:47,030 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:47,721 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:47,724 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:47,724 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:47,726 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:48,038 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:48,038 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:48,476 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:48,476 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:48,476 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:48,480 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:48,910 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: stop_status
+2024-11-26 16:13:48,910 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: stop_status
+2024-11-26 16:13:49,053 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:49,182 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:49,183 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:49,183 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:49,184 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:49,914 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:49,914 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:49,914 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:49,914 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:50,060 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:50,060 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:50,665 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:50,667 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:50,667 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:50,667 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:50,669 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:51,066 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:51,484 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:51,489 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:51,489 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:51,491 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:52,074 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:52,074 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:52,206 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:52,210 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:52,210 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:52,212 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:52,975 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:52,975 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:52,975 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:52,975 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:53,080 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:53,714 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:53,721 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:53,721 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:53,721 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:53,939 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:13:54,087 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:54,087 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:54,454 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:54,458 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:54,459 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:54,461 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:55,093 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:55,204 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:55,206 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:55,206 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:55,206 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:55,896 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:55,897 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:55,904 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:13:56,054 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:56,054 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:56,099 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:56,099 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\config.yaml
+2024-11-26 16:13:56,099 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:56,849 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:56,852 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:56,852 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:56,852 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:57,109 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:57,662 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:57,663 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:57,664 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:57,664 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:58,110 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:13:58,110 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:58,350 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:58,351 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:58,352 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:58,352 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:59,100 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:59,103 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:59,104 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:59,106 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:13:59,123 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:13:59,870 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:13:59,872 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:13:59,873 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:13:59,874 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:00,129 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:00,129 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:00,630 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:00,630 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:00,631 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:00,632 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:01,130 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:01,474 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:01,475 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:01,475 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:01,477 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:14:01,477 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:02,132 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:02,133 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:02,249 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:02,250 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:02,250 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:02,251 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:02,963 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:02,965 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:02,965 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:02,967 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:03,139 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:03,616 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:03,616 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:03,616 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:03,620 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:03,913 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: stop_status
+2024-11-26 16:14:03,913 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: stop_status
+2024-11-26 16:14:03,945 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:14:04,153 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:04,154 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:04,366 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:04,366 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:04,366 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:04,369 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:05,056 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:05,061 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:05,061 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:05,063 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:05,167 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:05,758 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:05,758 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:05,758 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:05,758 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:06,180 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:06,180 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:06,481 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:06,481 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:06,481 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:06,483 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:14:06,484 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:07,191 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:07,244 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:07,246 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:07,246 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:07,247 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:07,959 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:07,959 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:07,959 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:07,959 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:08,205 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:08,205 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:08,726 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:08,726 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:08,726 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:08,726 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:09,211 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:09,482 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:09,482 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:09,482 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:09,484 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:10,215 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:10,215 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:10,224 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:10,229 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:10,229 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:10,232 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:10,954 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:10,958 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:10,958 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:10,958 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:11,217 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:11,704 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:11,708 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:11,708 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:11,709 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:14:11,709 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:12,230 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:12,230 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:12,424 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:12,424 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:12,424 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:12,427 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:13,159 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:13,164 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:13,164 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:13,165 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:13,231 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:13,951 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:14:13,976 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:13,976 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:13,976 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:13,976 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:14,239 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:14,240 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:14,716 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:14,716 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:14,718 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:14,719 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:15,249 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:15,444 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:15,444 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:15,444 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:15,446 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:16,147 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:16,147 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:16,147 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:16,149 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:16,260 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:16,260 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:16,819 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:16,821 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:16,821 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:16,821 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:14:16,821 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:17,267 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:17,522 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:17,522 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:17,522 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:17,524 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:18,156 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:18,156 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:18,156 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:18,161 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:18,272 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:18,273 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:18,864 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:18,868 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:18,868 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:18,869 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:18,927 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: stop_status
+2024-11-26 16:14:18,927 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: stop_status
+2024-11-26 16:14:19,273 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:19,592 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:19,593 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:19,593 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:19,594 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:20,277 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:20,278 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:20,291 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: partial_history
+2024-11-26 16:14:20,293 DEBUG   SenderThread:17332 [sender.py:send():391] send: history
+2024-11-26 16:14:20,293 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: summary_record
+2024-11-26 16:14:20,293 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:20,875 DEBUG   SenderThread:17332 [sender.py:send():391] send: exit
+2024-11-26 16:14:20,875 INFO    SenderThread:17332 [sender.py:send_exit():598] handling exit code: 255
+2024-11-26 16:14:20,875 INFO    SenderThread:17332 [sender.py:send_exit():600] handling runtime: 56
+2024-11-26 16:14:20,875 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:20,877 INFO    SenderThread:17332 [sender.py:send_exit():606] send defer
+2024-11-26 16:14:20,877 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,877 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 0
+2024-11-26 16:14:20,877 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,877 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-11-26 16:14:20,877 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 1
+2024-11-26 16:14:20,877 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,877 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 1
+2024-11-26 16:14:20,877 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,877 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-11-26 16:14:20,877 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 2
+2024-11-26 16:14:20,877 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,877 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 2
+2024-11-26 16:14:20,877 INFO    HandlerThread:17332 [system_monitor.py:finish():203] Stopping system monitor
+2024-11-26 16:14:20,879 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-11-26 16:14:20,885 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-11-26 16:14:20,885 INFO    HandlerThread:17332 [interfaces.py:finish():200] Joined cpu monitor
+2024-11-26 16:14:20,885 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-11-26 16:14:20,885 INFO    HandlerThread:17332 [interfaces.py:finish():200] Joined disk monitor
+2024-11-26 16:14:20,961 INFO    HandlerThread:17332 [interfaces.py:finish():200] Joined gpu monitor
+2024-11-26 16:14:20,961 INFO    HandlerThread:17332 [interfaces.py:finish():200] Joined memory monitor
+2024-11-26 16:14:20,961 INFO    HandlerThread:17332 [interfaces.py:finish():200] Joined network monitor
+2024-11-26 16:14:20,963 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,963 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-11-26 16:14:20,963 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 3
+2024-11-26 16:14:20,963 DEBUG   SenderThread:17332 [sender.py:send():391] send: stats
+2024-11-26 16:14:20,963 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,964 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 3
+2024-11-26 16:14:20,964 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,964 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-11-26 16:14:20,964 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 4
+2024-11-26 16:14:20,964 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,964 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 4
+2024-11-26 16:14:20,964 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,964 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-11-26 16:14:20,964 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 5
+2024-11-26 16:14:20,964 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,964 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 5
+2024-11-26 16:14:20,964 DEBUG   SenderThread:17332 [sender.py:send():391] send: summary
+2024-11-26 16:14:20,966 INFO    SenderThread:17332 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-11-26 16:14:20,966 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,966 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-11-26 16:14:20,966 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 6
+2024-11-26 16:14:20,966 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,966 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 6
+2024-11-26 16:14:20,966 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,966 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-11-26 16:14:20,966 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 7
+2024-11-26 16:14:20,966 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: status_report
+2024-11-26 16:14:20,967 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:20,967 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 7
+2024-11-26 16:14:20,967 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:20,967 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-11-26 16:14:21,289 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:21,886 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:22,290 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:22,875 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 8
+2024-11-26 16:14:22,875 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:22,875 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:22,875 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 8
+2024-11-26 16:14:22,875 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:22,875 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-11-26 16:14:22,875 INFO    SenderThread:17332 [job_builder.py:build():443] Attempting to build job artifact
+2024-11-26 16:14:22,875 INFO    SenderThread:17332 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-11-26 16:14:22,898 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:22,930 INFO    SenderThread:17332 [job_builder.py:build():548] adding wandb-job metadata file
+2024-11-26 16:14:22,934 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 9
+2024-11-26 16:14:22,934 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:22,934 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:22,934 DEBUG   SenderThread:17332 [sender.py:send():391] send: artifact
+2024-11-26 16:14:22,934 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 9
+2024-11-26 16:14:23,300 INFO    Thread-16 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:23,656 INFO    SenderThread:17332 [sender.py:send_artifact():1549] sent artifact job-https___github.com_JoaquinAyzanoa_Glaciers_NeurIPS.git_DeepLearning_LSTMTrain_temperature_lstmAttentionTrain.py - {'id': 'QXJ0aWZhY3Q6MTM1MDUyMTkxMg==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ5ODg3MDg1NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTM1MDUyMTkxMg==', 'versionIndex': 0}}}
+2024-11-26 16:14:23,656 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:23,656 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-11-26 16:14:23,656 INFO    SenderThread:17332 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-11-26 16:14:23,910 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:24,307 INFO    SenderThread:17332 [dir_watcher.py:finish():388] scan: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files
+2024-11-26 16:14:24,307 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\conda-environment.yaml conda-environment.yaml
+2024-11-26 16:14:24,307 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\config.yaml config.yaml
+2024-11-26 16:14:24,309 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log output.log
+2024-11-26 16:14:24,312 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\requirements.txt requirements.txt
+2024-11-26 16:14:24,314 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-metadata.json wandb-metadata.json
+2024-11-26 16:14:24,314 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json wandb-summary.json
+2024-11-26 16:14:24,316 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 10
+2024-11-26 16:14:24,316 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:24,316 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:24,316 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 10
+2024-11-26 16:14:24,316 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:24,316 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-11-26 16:14:24,316 INFO    SenderThread:17332 [file_pusher.py:finish():169] shutting down file pusher
+2024-11-26 16:14:24,724 INFO    wandb-upload_0:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\conda-environment.yaml
+2024-11-26 16:14:24,827 INFO    wandb-upload_1:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\config.yaml
+2024-11-26 16:14:24,834 INFO    wandb-upload_3:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\requirements.txt
+2024-11-26 16:14:24,838 INFO    wandb-upload_2:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\output.log
+2024-11-26 16:14:24,843 INFO    wandb-upload_4:17332 [upload_job.py:push():130] Uploaded file C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\files\wandb-summary.json
+2024-11-26 16:14:24,921 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:24,921 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:25,056 INFO    Thread-15 (_thread_body):17332 [sender.py:transition_state():626] send defer: 11
+2024-11-26 16:14:25,056 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:25,056 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 11
+2024-11-26 16:14:25,056 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:25,056 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-11-26 16:14:25,057 INFO    SenderThread:17332 [file_pusher.py:join():175] waiting for file pusher
+2024-11-26 16:14:25,057 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 12
+2024-11-26 16:14:25,057 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:25,057 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 12
+2024-11-26 16:14:25,058 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:25,058 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-11-26 16:14:25,058 INFO    SenderThread:17332 [file_stream.py:finish():601] file stream finish called
+2024-11-26 16:14:25,583 INFO    SenderThread:17332 [file_stream.py:finish():605] file stream finish is done
+2024-11-26 16:14:25,583 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 13
+2024-11-26 16:14:25,583 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:25,583 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 13
+2024-11-26 16:14:25,583 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:25,583 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-11-26 16:14:25,583 INFO    SenderThread:17332 [sender.py:transition_state():626] send defer: 14
+2024-11-26 16:14:25,584 DEBUG   SenderThread:17332 [sender.py:send():391] send: final
+2024-11-26 16:14:25,584 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: defer
+2024-11-26 16:14:25,584 DEBUG   SenderThread:17332 [sender.py:send():391] send: footer
+2024-11-26 16:14:25,584 INFO    HandlerThread:17332 [handler.py:handle_request_defer():184] handle defer: 14
+2024-11-26 16:14:25,584 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: defer
+2024-11-26 16:14:25,584 INFO    SenderThread:17332 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-11-26 16:14:25,584 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:25,584 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: server_info
+2024-11-26 16:14:25,584 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:25,584 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: poll_exit
+2024-11-26 16:14:25,586 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: server_info
+2024-11-26 16:14:25,586 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: get_summary
+2024-11-26 16:14:25,586 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: sampled_history
+2024-11-26 16:14:25,586 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: internal_messages
+2024-11-26 16:14:25,735 DEBUG   SenderThread:17332 [sender.py:send_request():418] send_request: poll_exit
+2024-11-26 16:14:25,735 INFO    MainThread:17332 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-11-26 16:14:25,737 INFO    MainThread:17332 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-11-26 16:14:25,737 INFO    MainThread:17332 [wandb_run.py:_footer_sync_info():4037] logging synced files
+2024-11-26 16:14:25,739 DEBUG   HandlerThread:17332 [handler.py:handle_request():158] handle_request: shutdown
+2024-11-26 16:14:25,739 INFO    HandlerThread:17332 [handler.py:finish():884] shutting down handler
+2024-11-26 16:14:26,601 INFO    WriterThread:17332 [datastore.py:close():296] close: C:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\wandb\run-20241126_161324-w8s03oja\run-w8s03oja.wandb
+2024-11-26 16:14:26,741 INFO    SenderThread:17332 [sender.py:finish():1631] shutting down sender
+2024-11-26 16:14:26,741 INFO    SenderThread:17332 [file_pusher.py:finish():169] shutting down file pusher
+2024-11-26 16:14:26,741 INFO    SenderThread:17332 [file_pusher.py:join():175] waiting for file pusher

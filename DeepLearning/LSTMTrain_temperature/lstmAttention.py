@@ -25,6 +25,7 @@ class TemperatureLSTM(nn.Module):
         c = Variable(torch.zeros(self.num_layers, x.size(0), self.lstmHiddenSize)).to(self.device)  # cell state
         outputs = []
         for temp in temperatures:
+
             temp = temp.view(temp.size(0),temp.size(1), temp.size(2) * temp.size(3))  # Flatten 50x50 to (X, 2500)
             #print('temp.size(): ',temp.size())
             output, (h, c) = self.lstm(temp, (h, c))  # LSTM expects input of shape (batch_size, seq_len, input_size)
@@ -32,18 +33,16 @@ class TemperatureLSTM(nn.Module):
             #print('output.size(): ', output.size())
             outputs.append(output)  # We only need the last output
         
-        #PREGUNTAR
-        #¿NO TENDRIA QUE SACAR CELLMEMORY O HIDDENSTATE EN VEZ DEL OUTPUT?
 
         # Concatenate the outputs from all temperature tensors
         lstm_output = torch.stack(outputs, dim=1)  # Shape: (batch_size, 4, hidden_size)
-        lstm_output = lstm_output.view(lstm_output.size(0), 1, lstm_output.size(1), -1)
+        #lstm_output = lstm_output.view(lstm_output.size(0), 1, lstm_output.size(1), -1)
         
         # Apply convolution to reshape temperature features
-        temp_features = self.conv(lstm_output)  # Apply convolution to enhance spatial features
-        temp_features = temp_features.view(temp_features.size(0),temp_features.size(2),-1)
-        return temp_features
-
+        #temp_features = self.conv(lstm_output)  # Apply convolution to enhance spatial features
+        #temp_features = temp_features.view(temp_features.size(0),temp_features.size(2),-1)
+        #return temp_features
+        return lstm_output
 
 class LSTM(nn.Module):
     def __init__(self, lstmLayersEnc, lstmLayersDec, lstmHiddenSize, lstmInputSize, dropout, attentionHeads, device):

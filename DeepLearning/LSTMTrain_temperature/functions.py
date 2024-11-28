@@ -589,7 +589,7 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
             loss.backward()
             torch.nn.utils.clip_grad_value_(model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
             optimizer.step()
-            trainCounter += 1
+            #trainCounter += 1
             
             # save loss
             with torch.no_grad():
@@ -618,7 +618,7 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
                 #save for csv
                 trainLosses[trainCounter] = loss.detach().cpu().item()
                 validationLosses[trainCounter] = val_loss
-
+            trainCounter += 1
             # save model and optimizer checkpoint in case of memory overlow
             if trainCounter % 500 == 0:
                 saveCheckpoint(model, optimizer, pathOrigin + "/" + "models/" + modelName)

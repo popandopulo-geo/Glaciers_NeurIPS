@@ -6,16 +6,19 @@ from torch.utils.data import DataLoader
 import datasetClasses
 import numpy as np
 import matplotlib.pyplot as plt
-from unet_model import UNet
-import transformerBase
+#import transformerBase
 import LSTM
 import ConvLSTM
 import lstmAttention
-from unet_model import UNet
+#from unet_model import UNet
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+from config import * 
 
 ## global variables for project
 ### change here to run on cluster ####
-pathOrigin = "/mnt/qb/work/ludwig/lqb875"
+pathOrigin = path
+#pathOrigin = "C:\\FAU\\3rd SEM\\Glaciers_NeurIPS"
 #pathOrigin = "/media/jonas/B41ED7D91ED792AA/Arbeit_und_Studium/Kognitionswissenschaft/Semester_5/masterarbeit#/data_Code"
 device = "cuda"
 tokenizer = False
@@ -29,30 +32,32 @@ if tokenizer:
 
 
 #model = ConvLSTM.ConvLSTMPredictor([64, 64, 24, 24, 64, 24]).to(device)
-model = lstmAttention.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
+model = lstmAttention.LSTM(1,1, 2500, 2500, 0.1, 5,  device).to(device)
 #model = LSTM.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
 #model = UNet(1,1).to(device)
 
-
+modelName = "LSTMAttentionWithTemperature"
 # load weights to transformers
-model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "LSTMAttentionSmall"))
+model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", modelName))
 # model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "Unet"))
 # model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "ConvLSTM"))
 # model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "LSTMEncDec"))
 print("loading models finished")
 
+# get dataLoaders
+path_images = os.path.join(pathOrigin, "datasets", name, "alignedAveragedDataNDSIPatched")
+path_temperatures= os.path.join(pathOrigin, "datasets", name, "TemperatureDataPatched")
 # dataLoader /home/jonas/datasets/parbati
-datasetTest = datasetClasses.glaciers(os.path.join(pathOrigin, "datasets", "parbati"), "test", bootstrap = False)
+datasetTest = datasetClasses.glaciers(path_images, "test", bootstrap = False)
 #datasetTest = datasetClasses.glaciers("/home/jonas/datasets/parbati", "test", bootstrap = True)
-dataTest = DataLoader(datasetTest, 100, shuffle = True)
+dataTest = DataLoader(datasetTest, 100, shuffle = False)
 
 with torch.no_grad():
     # do 2000 bootstrap iterations
     losses = []
-    nIterations = 100
+    nIterations = 1
     MSELoss = torch.nn.MSELoss()
     MAELoss = torch.nn.L1Loss()
-    modelName = "LSTMAttentionSmall"
     modelResults = np.zeros((nIterations, 2))
 
     for b in range(nIterations):
@@ -82,6 +87,21 @@ with torch.no_grad():
                 forward = functions.tokenizerBatch(Tokenizer, forward, "decoding", device)
                 forward = torch.reshape(forward, (1, forward.size(0), 50, 50))
 
+            if inpts.size(0) == 100:
+                for i in range(forward.size(0)):
+                    fig, axs = plt.subplots(1, 2, figsize=(10, 5))
+                    # plot numpy arrays forward and target next to each other in the same plot in gray scale
+
+                    axs[0].imshow(forward[i,0 ,:, :].cpu().numpy(), cmap='gray')
+                    axs[0].set_title('Predicted')
+                    axs[1].imshow(targets[i,0, :, :].cpu().numpy(), cmap='gray')
+                    axs[1].set_title('Target')
+                    #save the plt plot to a jpeg file without displaying it
+                    os.chdir(os.path.join(pathOrigin, "prints",modelName))
+                    plt.savefig("nIteration" + str(b) + "_" + str(counter) + "_" + str(i)+ ".jpeg")
+                    plt.close()
+
+
             # get loss
             MSE = MSELoss(forward, targets)
             MAE = MAELoss(forward, targets)
@@ -99,7 +119,7 @@ with torch.no_grad():
     os.chdir(os.path.join(pathOrigin, "models"))
     df.to_csv(modelName + "_bootstraped_results" + ".csv")
     os.chdir(pathOrigin)
-
+    print("Test model results finished")
 
 
 

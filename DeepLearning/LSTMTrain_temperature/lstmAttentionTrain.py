@@ -1,3 +1,4 @@
+import lstmAttention2
 import lstmAttention
 import functions
 import torch
@@ -12,15 +13,17 @@ import LSTM_Temperature
 device = "cuda"
 #device = "cpu"
 
+#Model Name
+modelName = "LSTMAttentionWithTemperatureLSTMCNN_Little"
 # args:args: lstmLayersEnc, lstmLayersDec, lstmHiddenSize, lstmInputSize, dropout, attentionHeads, device
-model = lstmAttention.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
-#model = lstmAttention.LSTM(1,1, 2500, 2500, 0.1, 5,  device).to(device)
+model = lstmAttention2.LSTM(1,1, 2500, 2500, 0.1, 5,  device).to(device)
+#model = lstmAttention.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
 
 # load weights
-#model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "LSTMAttentionSmall"))
+#model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", modelName))
 
 # define hyperparameters
-params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 50, "batchSize": 4, "optimizer": "adam", "validationStep": 100}
+params = {"learningRate": 0.0001, "weightDecay": 0.001, "epochs": 20, "batchSize": 8, "optimizer": "adam", "validationStep": 100}
 
 
 
@@ -41,4 +44,4 @@ loss = torch.nn.MSELoss()
 
 # train on patches
 ## args: trainLoader, valLoader, tokenizer, model, criterion, loadModel, modelName, params,  WandB, device, pathOrigin = pathOrigin
-functions.trainLoop(dataTrain, dataVal,  model, loss, False, "LSTMAttentionWithTemperature", params, True, device)
+functions.trainLoop(dataTrain, dataVal,  model, loss, False, modelName, params, True, device)

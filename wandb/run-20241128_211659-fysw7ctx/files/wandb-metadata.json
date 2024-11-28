@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-11-28T20:17:00.002145",
+    "startedAt": "2024-11-28T20:16:59.417443",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\joaqu\\OneDrive\\Documentos\\FAU\\Project glaciar\\Glaciers_NeurIPS\\DeepLearning\\convLSTMTrain\\convLSTMTrain.py",
+    "codePathLocal": "DeepLearning\\convLSTMTrain\\convLSTMTrain.py",
+    "codePath": "DeepLearning\\convLSTMTrain\\convLSTMTrain.py",
+    "git": {
+        "remote": "https://github.com/JoaquinAyzanoa/Glaciers_NeurIPS.git",
+        "commit": "328b74b0046c1ad3a94b4a8a222b2147dae5771b"
+    },
+    "email": "joaquinayzanoa@gmail.com",
+    "root": "C:/Users/joaqu/OneDrive/Documentos/FAU/Project glaciar/Glaciers_NeurIPS",
+    "host": "JoaquinLPT_RTX",
+    "username": "joaqu",
+    "executable": "C:\\Users\\joaqu\\anaconda3\\envs\\glaciar\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2018.0,
+        "min": 0.0,
+        "max": 3801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2018.0,
+            "min": 0.0,
+            "max": 3801.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 929.2880821228027,
+            "used": 679.1510162353516
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+            "memory_total": 8585740288
+        }
+    ],
+    "memory": {
+        "total": 15.189807891845703
+    }
+}

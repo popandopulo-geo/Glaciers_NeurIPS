@@ -1,0 +1,69 @@
+
+epoch:  0 , example:  1  current loss =  0.27173250913619995
+epoch:  0 , example:  2  current loss =  0.1743454486131668
+epoch:  0 , example:  3  current loss =  0.13583876192569733
+epoch:  0 , example:  4  current loss =  0.07426845282316208
+epoch:  0 , example:  5  current loss =  0.04100671038031578
+epoch:  0 , example:  6  current loss =  0.05620574206113815
+epoch:  0 , example:  7  current loss =  0.03453848883509636
+epoch:  0 , example:  8  current loss =  0.024866851046681404
+epoch:  0 , example:  9  current loss =  0.044518716633319855
+epoch:  0 , example:  10  current loss =  0.018170766532421112
+epoch:  0 , example:  11  current loss =  0.030532196164131165
+epoch:  0 , example:  12  current loss =  0.02195093035697937
+epoch:  0 , example:  13  current loss =  0.024918273091316223
+epoch:  0 , example:  14  current loss =  0.03409721329808235
+epoch:  0 , example:  15  current loss =  0.029844127595424652
+epoch:  0 , example:  16  current loss =  0.018490144982933998
+epoch:  0 , example:  17  current loss =  0.02401764504611492
+epoch:  0 , example:  18  current loss =  0.02843645215034485
+epoch:  0 , example:  19  current loss =  0.017823442816734314
+epoch:  0 , example:  20  current loss =  0.023361485451459885
+epoch:  0 , example:  21  current loss =  0.02764636091887951
+epoch:  0 , example:  22  current loss =  0.029499223455786705
+epoch:  0 , example:  23  current loss =  0.02565857395529747
+epoch:  0 , example:  24  current loss =  0.018928026780486107
+epoch:  0 , example:  25  current loss =  0.020701410248875618
+epoch:  0 , example:  26  current loss =  0.02083459496498108
+epoch:  0 , example:  27  current loss =  0.021804681047797203
+epoch:  0 , example:  28  current loss =  0.024331338703632355
+epoch:  0 , example:  29  current loss =  0.021224498748779297
+epoch:  0 , example:  30  current loss =  0.02244163677096367
+epoch:  0 , example:  31  current loss =  0.02634555660188198
+epoch:  0 , example:  32  current loss =  0.035122111439704895
+epoch:  0 , example:  33  current loss =  0.02451292984187603
+epoch:  0 , example:  34  current loss =  0.015458461828529835
+epoch:  0 , example:  35  current loss =  0.019693491980433464
+epoch:  0 , example:  36  current loss =  0.020067306235432625
+epoch:  0 , example:  37  current loss =  0.018750106915831566
+epoch:  0 , example:  38  current loss =  0.019849970936775208
+epoch:  0 , example:  39  current loss =  0.01882025972008705
+epoch:  0 , example:  40  current loss =  0.019815897569060326
+epoch:  0 , example:  41  current loss =  0.017114559188485146
+epoch:  0 , example:  42  current loss =  0.027305547147989273
+epoch:  0 , example:  43  current loss =  0.021291684359312057
+epoch:  0 , example:  44  current loss =  0.03876741975545883
+epoch:  0 , example:  45  current loss =  0.026516802608966827
+epoch:  0 , example:  46  current loss =  0.019384948536753654
+epoch:  0 , example:  47  current loss =  0.015979692339897156
+epoch:  0 , example:  48  current loss =  0.02112402208149433
+epoch:  0 , example:  49  current loss =  0.017640667036175728
+epoch:  0 , example:  50  current loss =  0.028690526261925697
+epoch:  0 , example:  51  current loss =  0.024161601439118385
+epoch:  0 , example:  52  current loss =  0.021767085418105125
+epoch:  0 , example:  53  current loss =  0.020080653950572014
+epoch:  0 , example:  54  current loss =  0.023421218618750572
+epoch:  0 , example:  55  current loss =  0.02228255197405815
+epoch:  0 , example:  56  current loss =  0.020840393379330635
+epoch:  0 , example:  57  current loss =  0.024424182251095772
+epoch:  0 , example:  58  current loss =  0.03107084333896637
+Traceback (most recent call last):
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\lstmAttentionTrain.py", line 47, in <module>
+    functions.trainLoop(dataTrain, dataVal,  model, loss, False, modelName, params, True, device)
+  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 589, in trainLoop
+    loss.backward()
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "C:\Users\joaqu\anaconda3\envs\glaciar\Lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

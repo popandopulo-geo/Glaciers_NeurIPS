@@ -584,19 +584,25 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
             loss.backward()
             torch.nn.utils.clip_grad_value_(model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
             optimizer.step()
-            trainCounter += 1
+            
 
             # save loss
             with torch.no_grad():
                 if trainCounter % params["validationStep"] == 0 and trainCounter != 0:
                     model.eval()
-                    x, y = next(iter(valLoader))
-                    x = x.to(device).float()
-                    y = y.to(device).float()
 
-                    # predict
-                    pred = model.forward(x, y, training = False)
-                    valLoss = criterion(pred, y)
+                    val_loss = 0
+                    len_loss = 6
+                    for i in range(len_loss):
+                        x, y = next(iter(valLoader))
+                        x = x.to(device).float()
+                        y = y.to(device).float()
+
+                        # predict
+                        pred = model.forward(x, y, training = False)
+                        valLoss = criterion(pred, y)
+                        val_loss += valLoss.detach().cpu().item()
+                    val_loss = val_loss/len_loss
 
 
                 ## log to wandb
@@ -607,7 +613,8 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
                 #save for csv
                 trainLosses[trainCounter] = loss.detach().cpu().item()
                 validationLosses[trainCounter] = valLoss.detach().cpu().item()
-
+            trainCounter += 1
+            
             # save model and optimizer checkpoint in case of memory overlow
             if trainCounter % 500 == 0:
                 saveCheckpoint(model, optimizer, pathOrigin + "/" + "models/" + modelName)
