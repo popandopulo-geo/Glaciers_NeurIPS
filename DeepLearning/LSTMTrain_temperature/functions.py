@@ -534,6 +534,7 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
     trainCounter = 0
     valLoss = torch.zeros(1)
     val_loss = 0
+    alpha_fourier = 0.1
     # WandB
     if WandB:
         wandb.init(
@@ -586,7 +587,9 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
             # forward + backward + optimize
             forward = model.forward(inpts, temperatures, targets, training = True)
             loss = criterion(forward, targets)  # add reconstruction loss
-            loss.backward()
+            penalty = high_frequency_penalty(forward)
+            total_loss = loss + alpha_fourier*penalty
+            total_loss.backward()
             torch.nn.utils.clip_grad_value_(model.parameters(), clip_value=3.0) # gradient clipping; no exploding gradient
             optimizer.step()
             #trainCounter += 1
@@ -646,7 +649,14 @@ def trainLoop(trainLoader, valLoader, model, criterion, loadModel, modelName, pa
     return
 
 
-
+def high_frequency_penalty(output):
+    # Compute the Fourier transform of the output
+    fft_output = torch.fft.fft2(output)
+    # Compute the magnitude of the Fourier coefficients
+    magnitude = torch.abs(fft_output)
+    # Penalize high-frequency components
+    penalty = torch.mean(magnitude)
+    return penalty
 
 
 

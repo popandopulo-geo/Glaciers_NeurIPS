@@ -1787,7 +1787,8 @@ def inferenceScenes(model, data, patchSize, stride, outputDimensions, glacierNam
         finalInpt = [[inputPatches, inputDates], [targetPatches, targetDates]]
 
         # predict with model
-        prediction = model.forward(finalInpt, training=False)
+        #prediction = model.forward(finalInpt, training=False)
+        prediction = model.forward(inputPatches, targetPatches, training=False)
 
         # switch input with predictions; z = scene index, i = patch index
         for z in range(prediction.size(0)):

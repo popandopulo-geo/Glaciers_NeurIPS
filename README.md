@@ -13,3 +13,12 @@ The createPatches.py file is used to extract tensors containing consecutive patc
 
 ## Train RNN models
 The /DeepLearning folder contains functionalities to train different deep learning models. Each folder for a different model class contains a train script, which can be used to control hyperparameters and the general training process. The scripts use the weights and biases tool, which can be used for free in order to visualize tarining progress in a web browser. The tool only requires the creation of an account. 
+
+
+## Get data
+In order to get the data run this scripts in this order:
+```
+    python dataAPI.py
+    python alignment.py
+    python createPatches.py
+```

@@ -49,8 +49,8 @@ class glaciers(Dataset):
             # get list of all image paths in directory
             images = os.listdir(os.path.join(self.path, "images"))
             paths = [os.path.join(os.path.join(self.path, "images"), item) for item in images]
-            # criterion = round(len(paths) * 0.80) 
-            paths = paths[criterion:]
+            # for test all
+            #paths = paths[criterion:]
             self.images = paths
 
             targets = os.listdir(os.path.join(self.path, "targets"))

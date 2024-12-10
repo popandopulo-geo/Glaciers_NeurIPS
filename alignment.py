@@ -487,11 +487,25 @@ def averageOverMonths(delta = 6, verbose = True):
                         convertDatetoVector(openData(files[b]))[1] < i + (delta) and convertDatetoVector(openData(files[b]))[1] >= i ]
             listOfList.append(monthsDelta)
             listOfListInd.append(monthsDeltaInd)
+        
+        #Modified for JA
+        if any(not sublist for sublist in listOfList):
+            if not listOfList[0]:
+                listOfList[0] = [listOfList[1][0]]
+                listOfListInd[0] = [listOfListInd[1][0]]
+            elif not listOfList[1]:
+                listOfList[1] = [listOfList[0][-1], listOfList[2][0]]
+                listOfListInd[1] = [listOfListInd[0][-1], listOfListInd[2][0]]
+            elif not listOfList[2]:
+                listOfList[2] = [listOfList[1][-1], listOfList[3][0]]
+                listOfListInd[2] = [listOfListInd[1][-1], listOfListInd[3][0]]
+            elif not listOfList[3]:
+                listOfList[3] = [listOfList[2][-1]]
+                listOfListInd[3] = [listOfListInd[2][-1]]
         print(listOfList)
         print(listOfListInd)
         if verbose:
             print(f"Distribution of images in timedeltas: {listOfListInd}")
-
         # check if no images for at least one delta
         if any(not sublist for sublist in listOfList):
             print("At least one timedelta interval contains no images")

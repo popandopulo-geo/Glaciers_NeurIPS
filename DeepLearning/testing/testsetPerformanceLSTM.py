@@ -14,6 +14,7 @@ import lstmAttention
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from config import * 
+import DeepLearning.LSTMTrain_temperature.lstmAttention2 as lstmAttention2_temp
 
 ## global variables for project
 ### change here to run on cluster ####
@@ -32,11 +33,11 @@ if tokenizer:
 
 
 #model = ConvLSTM.ConvLSTMPredictor([64, 64, 24, 24, 64, 24]).to(device)
-model = lstmAttention.LSTM(1,1, 2500, 2500, 0.1, 5,  device).to(device)
+model = lstmAttention2_temp.LSTM(1,1, 2500, 2500, 0.1, 5,  device).to(device)
 #model = LSTM.LSTM(3,3, 2500, 2500, 0.1, 5,  device).to(device)
 #model = UNet(1,1).to(device)
 
-modelName = "LSTMAttentionWithTemperature"
+modelName = "LSTMAttentionWithTemperatureLSTMCNN_Little"
 # load weights to transformers
 model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", modelName))
 # model = functions.loadCheckpoint(model, None, os.path.join(pathOrigin, "models", "Unet"))
@@ -50,7 +51,7 @@ path_temperatures= os.path.join(pathOrigin, "datasets", name, "TemperatureDataPa
 # dataLoader /home/jonas/datasets/parbati
 datasetTest = datasetClasses.glaciers(path_images, "test", bootstrap = False)
 #datasetTest = datasetClasses.glaciers("/home/jonas/datasets/parbati", "test", bootstrap = True)
-dataTest = DataLoader(datasetTest, 100, shuffle = False)
+dataTest = DataLoader(datasetTest, shuffle = False)
 
 with torch.no_grad():
     # do 2000 bootstrap iterations
@@ -86,8 +87,8 @@ with torch.no_grad():
                 forward = Tokenizer.decoder(forward)
                 forward = functions.tokenizerBatch(Tokenizer, forward, "decoding", device)
                 forward = torch.reshape(forward, (1, forward.size(0), 50, 50))
-
-            if inpts.size(0) == 100:
+            print(forward.size())
+            if inpts.size(0) < 0:
                 for i in range(forward.size(0)):
                     fig, axs = plt.subplots(1, 2, figsize=(10, 5))
                     # plot numpy arrays forward and target next to each other in the same plot in gray scale

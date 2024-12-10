@@ -23,8 +23,11 @@ class glaciers(Dataset):
         images = os.listdir(os.path.join(self.path, "images"))
         paths = [os.path.join(os.path.join(self.path, "images"), item) for item in images]
         # take 80% of data as training
-        criterion = round(len(paths) * 0.80) # turn off for aletsch as is already splitted
+        criterion = round(len(paths) * 0.8) # turn off for aletsch as is already splitted, change for 0.8
+        #change to one because i separate the test data to 2018 and 2019
+        criterion = round(len(paths) * 1)
         paths = paths[0:criterion]
+        self.codigo = images
         self.images = paths
 
         targets = os.listdir(os.path.join(self.path, "targets"))
@@ -47,7 +50,7 @@ class glaciers(Dataset):
 
         if self.mode == "val":
             # take 10% as validation set
-            criterion = round(len(paths) * 0.9)
+            criterion = round(len(paths) * 0.9) # cero because i want to test all
             self.images = self.images[criterion:]
             self.targets = self.targets[criterion:]
             self.temperatures = self.temperatures[criterion:]
@@ -100,4 +103,4 @@ class glaciers(Dataset):
             target = functions.openData(self.targets[index])
             temperature = functions.openData(self.temperatures[index])
 
-        return inpt, target, temperature
+        return inpt, target, temperature, self.codigo[idx]

@@ -40,8 +40,12 @@ dataVal = DataLoader(datasetVal, params["batchSize"], shuffle = True)
 
 
 # criterion
-loss = torch.nn.MSELoss()
+#loss = torch.nn.MSELoss()
+loss = torch.nn.L1Loss()
+
+# optimizer with weight decay for regularization
+optimizer = torch.optim.Adam(model.parameters(), lr=params["learningRate"], weight_decay=params["weightDecay"])
 
 # train on patches
 ## args: trainLoader, valLoader, tokenizer, model, criterion, loadModel, modelName, params,  WandB, device, pathOrigin = pathOrigin
-functions.trainLoop(dataTrain, dataVal,  model, loss, False, modelName, params, True, device)
+functions.trainLoop(dataTrain, dataVal,  model, loss, False, modelName, params, True, device, optimizer=optimizer)
