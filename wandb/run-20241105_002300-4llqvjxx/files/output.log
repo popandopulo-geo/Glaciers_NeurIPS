@@ -1,9 +1,0 @@
-
-torch.Size([1, 4, 2500])
-Traceback (most recent call last):
-  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\lstmAttentionTrain.py", line 44, in <module>
-    functions.trainLoop(dataTrain, dataVal,  model, loss, False, "LSTMAttentionWithTemperature", params, True, device)
-  File "c:\Users\joaqu\OneDrive\Documentos\FAU\Project glaciar\Glaciers_NeurIPS\DeepLearning\LSTMTrain_temperature\functions.py", line 613, in trainLoop
-    "validationLoss": val_loss})
-                      ^^^^^^^^
-UnboundLocalError: cannot access local variable 'val_loss' where it is not associated with a value
