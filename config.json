@@ -18,10 +18,10 @@
     "splits": {
         "train_split_file": "train_splits.json",
         "valid_split_file": "val_splits.json",
-        "train_test_ratio": 0.8,
+        "train_test_ratio": 0.75,
         "patch_size": 128,
-        "num_patches_per_image": 10
+        "num_patches_per_image": 20
     },
-    "input_sequence": 25,
-    "out_sequence": 6
+    "input_sequence": 20,
+    "out_sequence": 5
 }
