@@ -114,7 +114,7 @@ class LandsatPrerocessor:
                     for i, band_name in enumerate(self.config.rasters.bands, start=1):
                         data = src.read(
                             band_indexes[band_name],
-                            out_shape=self.config.rasters.size,
+                            out_shape=tuple(self.config.rasters.size),
                             resampling=Resampling.bilinear
                         ).astype(np.float32)
                         # Interpolate NaN values using cubic interpolation.
@@ -127,7 +127,7 @@ class LandsatPrerocessor:
                     # Compute NDSI (Normalized Difference Snow Index) using normalized SR_B3 and SR_B6.
                     sr_b3 = src.read(
                         band_indexes['SR_B3'],
-                        out_shape=self.config.rasters.size,
+                        out_shape=tuple(self.config.rasters.size),
                         resampling=Resampling.bilinear
                     ).astype(np.float32)
                     sr_b3 =LandsatPrerocessor._fill_nans_cubic(sr_b3)
@@ -135,7 +135,7 @@ class LandsatPrerocessor:
 
                     sr_b6 = src.read(
                         band_indexes['SR_B6'],
-                        out_shape=self.config.rasters.size,
+                        out_shape=tuple(self.config.rasters.size),
                         resampling=Resampling.bilinear
                     ).astype(np.float32)
                     sr_b6 = LandsatPrerocessor._fill_nans_cubic(sr_b6)

@@ -1,0 +1,3202 @@
+[
+    {
+        "patch_id": 0,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 184,
+            "y_start": 47,
+            "x_end": 312,
+            "y_end": 175
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 1,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 859,
+            "y_start": 470,
+            "x_end": 987,
+            "y_end": 598
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 2,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 291,
+            "y_start": 149,
+            "x_end": 419,
+            "y_end": 277
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 3,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 517,
+            "y_start": 94,
+            "x_end": 645,
+            "y_end": 222
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 4,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 623,
+            "y_start": 552,
+            "x_end": 751,
+            "y_end": 680
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 5,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 748,
+            "y_start": 606,
+            "x_end": 876,
+            "y_end": 734
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 6,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 789,
+            "y_start": 580,
+            "x_end": 917,
+            "y_end": 708
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 7,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 324,
+            "y_start": 360,
+            "x_end": 452,
+            "y_end": 488
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 8,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 128,
+            "y_start": 413,
+            "x_end": 256,
+            "y_end": 541
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 9,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 814,
+            "y_start": 405,
+            "x_end": 942,
+            "y_end": 533
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 10,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 152,
+            "y_start": 85,
+            "x_end": 280,
+            "y_end": 213
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 11,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 586,
+            "y_start": 570,
+            "x_end": 714,
+            "y_end": 698
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 12,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 212,
+            "y_start": 56,
+            "x_end": 340,
+            "y_end": 184
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 13,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 195,
+            "y_start": 249,
+            "x_end": 323,
+            "y_end": 377
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 14,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 717,
+            "y_start": 132,
+            "x_end": 845,
+            "y_end": 260
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 15,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 495,
+            "y_start": 526,
+            "x_end": 623,
+            "y_end": 654
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 16,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 559,
+            "y_start": 503,
+            "x_end": 687,
+            "y_end": 631
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 17,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 119,
+            "y_start": 374,
+            "x_end": 247,
+            "y_end": 502
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 18,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 865,
+            "y_start": 135,
+            "x_end": 993,
+            "y_end": 263
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 19,
+        "start_index": 0,
+        "date": "2018-11-26 05:24:09.791093+00:00",
+        "patch_boundary": {
+            "x_start": 212,
+            "y_start": 449,
+            "x_end": 340,
+            "y_end": 577
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181126_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 20,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 724,
+            "y_start": 546,
+            "x_end": 852,
+            "y_end": 674
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 21,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 416,
+            "y_start": 358,
+            "x_end": 544,
+            "y_end": 486
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 22,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 449,
+            "y_start": 188,
+            "x_end": 577,
+            "y_end": 316
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 23,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 158,
+            "y_start": 315,
+            "x_end": 286,
+            "y_end": 443
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 24,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 107,
+            "y_start": 563,
+            "x_end": 235,
+            "y_end": 691
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 25,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 138,
+            "y_start": 554,
+            "x_end": 266,
+            "y_end": 682
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 26,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 558,
+            "y_start": 312,
+            "x_end": 686,
+            "y_end": 440
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 27,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 781,
+            "y_start": 191,
+            "x_end": 909,
+            "y_end": 319
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 28,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 119,
+            "y_start": 373,
+            "x_end": 247,
+            "y_end": 501
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 29,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 18,
+            "y_start": 76,
+            "x_end": 146,
+            "y_end": 204
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 30,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 817,
+            "y_start": 522,
+            "x_end": 945,
+            "y_end": 650
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 31,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 307,
+            "y_start": 597,
+            "x_end": 435,
+            "y_end": 725
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 32,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 287,
+            "y_start": 457,
+            "x_end": 415,
+            "y_end": 585
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 33,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 169,
+            "y_start": 167,
+            "x_end": 297,
+            "y_end": 295
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 34,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 113,
+            "y_start": 451,
+            "x_end": 241,
+            "y_end": 579
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 35,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 558,
+            "y_start": 477,
+            "x_end": 686,
+            "y_end": 605
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 36,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 328,
+            "y_start": 394,
+            "x_end": 456,
+            "y_end": 522
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 37,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 440,
+            "y_start": 198,
+            "x_end": 568,
+            "y_end": 326
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 38,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 317,
+            "y_start": 351,
+            "x_end": 445,
+            "y_end": 479
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 39,
+        "start_index": 1,
+        "date": "2018-12-28 05:24:06.728653+00:00",
+        "patch_boundary": {
+            "x_start": 381,
+            "y_start": 403,
+            "x_end": 509,
+            "y_end": 531
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20181228_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 40,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 425,
+            "y_start": 477,
+            "x_end": 553,
+            "y_end": 605
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 41,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 39,
+            "y_start": 306,
+            "x_end": 167,
+            "y_end": 434
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 42,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 307,
+            "y_start": 256,
+            "x_end": 435,
+            "y_end": 384
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 43,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 402,
+            "y_start": 565,
+            "x_end": 530,
+            "y_end": 693
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 44,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 188,
+            "y_start": 564,
+            "x_end": 316,
+            "y_end": 692
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 45,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 316,
+            "y_start": 43,
+            "x_end": 444,
+            "y_end": 171
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 46,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 522,
+            "y_start": 3,
+            "x_end": 650,
+            "y_end": 131
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 47,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 189,
+            "y_start": 222,
+            "x_end": 317,
+            "y_end": 350
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 48,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 156,
+            "y_start": 442,
+            "x_end": 284,
+            "y_end": 570
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 49,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 86,
+            "y_start": 422,
+            "x_end": 214,
+            "y_end": 550
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 50,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 343,
+            "y_start": 437,
+            "x_end": 471,
+            "y_end": 565
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 51,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 366,
+            "y_start": 140,
+            "x_end": 494,
+            "y_end": 268
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 52,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 163,
+            "y_start": 144,
+            "x_end": 291,
+            "y_end": 272
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 53,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 189,
+            "y_start": 537,
+            "x_end": 317,
+            "y_end": 665
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 54,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 192,
+            "y_start": 136,
+            "x_end": 320,
+            "y_end": 264
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 55,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 671,
+            "y_start": 356,
+            "x_end": 799,
+            "y_end": 484
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 56,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 53,
+            "y_start": 303,
+            "x_end": 181,
+            "y_end": 431
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 57,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 396,
+            "y_start": 401,
+            "x_end": 524,
+            "y_end": 529
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 58,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 187,
+            "y_start": 546,
+            "x_end": 315,
+            "y_end": 674
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 59,
+        "start_index": 2,
+        "date": "2019-01-29 05:24:00.773737+00:00",
+        "patch_boundary": {
+            "x_start": 404,
+            "y_start": 166,
+            "x_end": 532,
+            "y_end": 294
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190129_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 60,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 429,
+            "y_start": 478,
+            "x_end": 557,
+            "y_end": 606
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 61,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 189,
+            "y_start": 475,
+            "x_end": 317,
+            "y_end": 603
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 62,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 300,
+            "y_start": 247,
+            "x_end": 428,
+            "y_end": 375
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 63,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 379,
+            "y_start": 574,
+            "x_end": 507,
+            "y_end": 702
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 64,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 569,
+            "y_start": 247,
+            "x_end": 697,
+            "y_end": 375
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 65,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 84,
+            "y_start": 443,
+            "x_end": 212,
+            "y_end": 571
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 66,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 513,
+            "y_start": 30,
+            "x_end": 641,
+            "y_end": 158
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 67,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 784,
+            "y_start": 263,
+            "x_end": 912,
+            "y_end": 391
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 68,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 712,
+            "y_start": 582,
+            "x_end": 840,
+            "y_end": 710
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 69,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 46,
+            "y_start": 281,
+            "x_end": 174,
+            "y_end": 409
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 70,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 819,
+            "y_start": 160,
+            "x_end": 947,
+            "y_end": 288
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 71,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 162,
+            "y_start": 439,
+            "x_end": 290,
+            "y_end": 567
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 72,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 280,
+            "y_start": 39,
+            "x_end": 408,
+            "y_end": 167
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 73,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 329,
+            "y_start": 483,
+            "x_end": 457,
+            "y_end": 611
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 74,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 852,
+            "y_start": 244,
+            "x_end": 980,
+            "y_end": 372
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 75,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 856,
+            "y_start": 147,
+            "x_end": 984,
+            "y_end": 275
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 76,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 706,
+            "y_start": 258,
+            "x_end": 834,
+            "y_end": 386
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 77,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 617,
+            "y_start": 166,
+            "x_end": 745,
+            "y_end": 294
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 78,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 254,
+            "y_start": 201,
+            "x_end": 382,
+            "y_end": 329
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    },
+    {
+        "patch_id": 79,
+        "start_index": 3,
+        "date": "2019-03-18 05:23:49.454026+00:00",
+        "patch_boundary": {
+            "x_start": 55,
+            "y_start": 36,
+            "x_end": 183,
+            "y_end": 164
+        },
+        "input_filenames": [
+            "data/raw\\LC08_L2SP_147038_20190318_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190403_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190419_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190505_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190521_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190622_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190708_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190724_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190910_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20190926_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191012_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20191028_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200201_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200217_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200304_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200320_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200405_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200507_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200608_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200624_02_T1.tif"
+        ],
+        "target_filenames": [
+            "data/raw\\LC08_L2SP_147038_20200912_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20200928_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201014_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201030_02_T1.tif",
+            "data/raw\\LC08_L2SP_147038_20201217_02_T1.tif"
+        ]
+    }
+]

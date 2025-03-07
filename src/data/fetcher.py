@@ -57,7 +57,7 @@ class LandsatDataFetcher:
         self.chunk_size = {'time': 8, 'band': -1, 'y': 512, 'x': 512}
         self.parallel = parallel
         self.num_workers = num_workers or multiprocessing.cpu_count()
-        self.metadata_file = os.path.join(config.paths.root, "metadata.csv")
+        self.metadata_file = osp.join(config.paths.root, "metadata.csv")
 
         os.makedirs(self.output_dir, exist_ok=True)
         os.makedirs(self.output_dir, exist_ok=True)
@@ -116,9 +116,10 @@ class LandsatDataFetcher:
                         logger.debug(f"Skipped item {item.id} with NaN proportion: {nan_proportion:.2%}")
                         continue
 
-                    file_name = os.path.join(self.output_dir, f"{item.id}.tif")
+                    file_name = f"{item.id}.tif"
                     band_names = list(single_stack.band.values)
-                    self._save_raster(single_stack, file_name, band_names)
+                    self._save_raster(single_stack, osp.join(self.output_dir, file_name), band_names)
+                    
 
                     metadata_entries.append([file_name, item.datetime, item.properties.get('eo:cloud_cover')])
                     logger.info(f"Saved raster: {file_name}")
@@ -170,11 +171,11 @@ class LandsatDataFetcher:
             metadata_entries (List[List]): List of metadata rows.
         """
         with self.lock:
-            file_exists = os.path.exists(self.metadata_file)
-            with open(self.metadata_file, mode="a", newline='') as f:
+            file_exists = osp.exists(self.metadata_file)
+            with open(self.metadata_file, mode="w", newline='') as f:
                 writer = csv.writer(f)
                 if not file_exists:
-                    writer.writerow(["file_name", "date", "cloud_coverage"])
+                    writer.writerow(["filename", "date", "cloud_coverage"])
                 writer.writerows(metadata_entries)
 
         logger.info(f"Metadata saved to {self.metadata_file}")
