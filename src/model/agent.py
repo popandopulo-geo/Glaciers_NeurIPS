@@ -1,8 +1,11 @@
 import os
 import torch
-import torch.nn as nn
 import torch.distributed as dist
 from torch.nn.parallel import DistributedDataParallel as DDP
+
+from src.logger import ColoredLogger
+
+logger = ColoredLogger().get_logger()
 
 def ddp_setup(world_size, rank):
     dist.init_process_group("nccl", rank=rank, world_size=world_size)
@@ -11,7 +14,7 @@ def ddp_destroy():
     dist.destroy_process_group()
 
 class TrainAgent:
-    def __init__(self, device, model, optimizer, criterion, scheduler, logger=None):
+    def __init__(self, device, model, optimizer, criterion, scheduler, exp_logger=None):
         """
         Initializes the training agent.
         
@@ -21,7 +24,7 @@ class TrainAgent:
             optimizer: Optimizer.
             criterion: Loss function.
             scheduler: Learning rate scheduler.
-            logger: A logger instance supporting dictionary-like keys and a method log_image(tag, image_np).
+            exp_logger: A logger instance supporting dictionary-like keys and a method log_image(tag, image_np).
         """
         self.local_rank = device  # e.g. "cuda:0"
         self.global_rank = int(os.environ.get("SLURM_PROCID", 0))
@@ -40,7 +43,9 @@ class TrainAgent:
         
         # Initialize environment (only on global_rank 0)
         if self.global_rank == 0:
-            self._init_environment(logger)
+            self._init_environment(exp_logger)
+
+        logger.info(f"Training agent initialized on rank {self.global_rank} with device {self.local_rank}")
     
     def train(self, n_epochs, train_loader, valid_loader) -> None:
         """
@@ -59,6 +64,8 @@ class TrainAgent:
             self._reduce_records()
             self._process_records()
             self._log_scalars()
+            if self.global_rank == 0:
+                logger.info(f"Epoch {epoch}/{n_epochs} | Train Loss: {self.train_loss:.4f}")
             
             # ------------------- Validation Phase -------------------
             self.stage = 'valid'
@@ -70,6 +77,8 @@ class TrainAgent:
                 self._process_records()
                 self._log_scalars()
                 self._log_images(valid_loader)
+            if self.global_rank == 0:
+                logger.info(f"Epoch {epoch}/{n_epochs} | Val Loss: {self.valid_loss:.4f}")
             
             # Save snapshots on rank 0.
             if self.global_rank == 0:
@@ -78,8 +87,8 @@ class TrainAgent:
                 if cur_loss < self.best_loss:
                     self.best_loss = cur_loss
                     self._save_snapshot("BEST.pth")
-                    self.logger['metrics/best_loss'] = self.best_loss
-                    self.logger['metrics/best_epoch'] = self.current_epoch
+                    self.exp_logger['metrics/best_loss'] = self.best_loss
+                    self.exp_logger['metrics/best_epoch'] = self.current_epoch
             
             print(f"Epoch {epoch}/{n_epochs} | Train Loss: {self.train_loss:.4f} | Val Loss: {self.valid_loss:.4f}")
     
@@ -158,9 +167,9 @@ class TrainAgent:
         Logs scalar metrics (loss and learning rate) to the logger.
         """
         if self.global_rank == 0:
-            self.logger[f'metrics/{self.stage}/loss'].append(self.records["loss"].item())
+            self.exp_logger[f'metrics/{self.stage}/loss'].append(self.records["loss"].item())
             if self.stage == 'valid':
-                self.logger['metrics/lr'].append(self.optimizer.param_groups[0]['lr'])
+                self.exp_logger['metrics/lr'].append(self.optimizer.param_groups[0]['lr'])
     
     def _log_images(self, loader) -> None:
         """
@@ -188,10 +197,10 @@ class TrainAgent:
         pred_np = pred_img.cpu().numpy()
         target_np = target_img.cpu().numpy()
         
-        if hasattr(self.logger, "log_image"):
-            self.logger.log_image(f"Epoch_{self.current_epoch}_input", input_np)
-            self.logger.log_image(f"Epoch_{self.current_epoch}_pred", pred_np)
-            self.logger.log_image(f"Epoch_{self.current_epoch}_target", target_np)
+        if hasattr(self.exp_logger, "log_image"):
+            self.exp_logger.log_image(f"Epoch_{self.current_epoch}_input", input_np)
+            self.exp_logger.log_image(f"Epoch_{self.current_epoch}_pred", pred_np)
+            self.exp_logger.log_image(f"Epoch_{self.current_epoch}_target", target_np)
     
     def _save_snapshot(self, snapshot_name):
         """
@@ -206,15 +215,15 @@ class TrainAgent:
             "BEST_LOSS": self.best_loss
         }
         torch.save(snapshot, snapshot_path)
-        print(f"Epoch {self.current_epoch} | Snapshot saved at {snapshot_path}")
+        logger.info(f"Snapshot saved: {snapshot_path}")
     
-    def _init_environment(self, logger):
+    def _init_environment(self, exp_logger):
         """
         Initializes logging and snapshot directories.
         """
-        self.logger = logger
+        self.exp_logger = exp_logger
         # For example, the logger may provide a unique id:
-        self.snapshots_root = os.path.join("exp", self.logger["sys/id"].fetch())
+        self.snapshots_root = os.path.join("exp", self.exp_logger["sys/id"].fetch())
         os.makedirs("exp", exist_ok=True)
         os.makedirs(self.snapshots_root, exist_ok=True)
         self.current_epoch = 1
